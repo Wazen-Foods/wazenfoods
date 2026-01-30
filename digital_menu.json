@@ -477,11 +477,6 @@
           "prices": { "price": "1.25 JD", "with Ice Cream": "-" }
         },
         {
-          "name": { "ar": "سوتلاج", "en": "Sutlaj" },
-          "description": { "ar": "أرز بالحليب تركي", "en": "" },
-          "prices": { "price": "1.5 JD", "with Ice Cream": "-" }
-        },
-        {
           "name": { "ar": "كريم بروليه", "en": "Cremebrulee" },
           "description": { "ar": "", "en": "" },
           "prices": { "price": "1.5 JD", "with Ice Cream": "-" }

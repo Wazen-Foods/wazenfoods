@@ -145,7 +145,7 @@ h2 {
 =========================== */
 .prices-header, .item-row {
   display: grid;
-  grid-template-columns: 60px 1fr repeat(3, 1fr); /* عمود للصورة + الاسم + 3 أعمدة أسعار */
+  grid-template-columns: 60px 3fr repeat(3, 1fr); /* عمود للصورة + الاسم + 3 أعمدة أسعار */
   gap: 10px;
   align-items: center;
   min-width: 1200px; /* يمنع تكسير الجدول على شاشات صغيرة */
