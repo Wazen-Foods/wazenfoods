@@ -157,7 +157,11 @@ function renderMenu() {
       img.height = 60;
 
       // إذا الصورة ما موجودة، نخليها مخفية
-      img.onerror = () => img.style.display = "none";
+      img.onerror = () => {
+        img.src = "assets/images/placeholder.png"; // اختاري اسم الصورة الثابتة
+        img.classList.add("placeholder"); // يضيف الـ CSS الخاص بالشفافية
+        img.style.display = "block"; // نتأكد أنها تظهر
+      };
 
       imgDiv.appendChild(img);
       itemRow.appendChild(imgDiv);
