@@ -74,8 +74,19 @@ function renderMenu() {
     // رأس الأسعار
     const pricesHeader = document.createElement("div");
     pricesHeader.classList.add("prices-header");
-    pricesHeader.innerHTML = `<div class="item-name">${currentLang === "ar" ? "الصنف" : "Item"}</div>`;
+  
+    // نضيف div فارغ مكان الصورة
+    const imgHeader = document.createElement("div");
+    imgHeader.classList.add("header-image"); // CSS بنفس حجم الصور في الأصناف
+    pricesHeader.appendChild(imgHeader);
 
+    // الاسم
+    const nameHeader = document.createElement("div");
+    nameHeader.classList.add("item-name");
+    nameHeader.textContent = currentLang === "ar" ? "الصنف" : "Item";
+    pricesHeader.appendChild(nameHeader);
+
+    // الأعمدة السعرية
     const firstItem = section.items[0];
     const priceKeys = Object.keys(firstItem.prices);
 
@@ -135,6 +146,21 @@ function renderMenu() {
     section.items.forEach(item => {
       const itemRow = document.createElement("div");
       itemRow.classList.add("item-row");
+
+      // الصورة
+      const imgDiv = document.createElement("div");
+      imgDiv.classList.add("item-image"); // خصائص CSS للتحكم بالحجم
+      const img = document.createElement("img");
+      img.src = `assets/images/${section.title["en"]}/${item.name["en"]}.jpg`; // مسار الصورة: مجلد القسم + اسم الصورة
+      img.alt = item.name[currentLang];
+      img.width = 60; // مثال على حجم ثابت (يمكن تغييره)
+      img.height = 60;
+
+      // إذا الصورة ما موجودة، نخليها مخفية
+      img.onerror = () => img.style.display = "none";
+
+      imgDiv.appendChild(img);
+      itemRow.appendChild(imgDiv);
 
       // الاسم + الوصف
       const nameDiv = document.createElement("div");
