@@ -264,7 +264,7 @@ h2 {
 /* ===========================
    تحسين الهيدر على الجوال بالعرض
 =========================== */
-@media (max-width: 900px) and (orientation: landscape) {
+@media (max-width: 1000px) and (orientation: landscape) {
 
   .header {
     padding: 6px 12px;
