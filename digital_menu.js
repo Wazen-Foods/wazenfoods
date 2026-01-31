@@ -3,7 +3,7 @@ let menuData = null;
 
 async function loadMenu() {
   try {
-    const response = await fetch("digital_menu.json");
+    const response = await fetch("assets/data/digital_menu.json");
     menuData = await response.json();
     renderMenu();
   } catch (error) {
