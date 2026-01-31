@@ -260,3 +260,38 @@ h2 {
     display: block;  
   }
 }
+
+/* ===========================
+   تحسين الهيدر على الجوال بالعرض
+=========================== */
+@media (max-width: 768px) and (orientation: landscape) {
+
+  .header {
+    padding: 6px 12px;
+  }
+
+  .header-top {
+    max-width: 100%;
+  }
+
+  .logo {
+    width: 30%;        /* كان 40% */
+    max-width: 250px;  /* حد أعلى منطقي */
+  }
+
+  #lang-toggle {
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+
+  .sections-nav {
+    margin-top: 8px;
+    margin-bottom: 6px;
+    gap: 8px;
+  }
+
+  .sections-nav button {
+    font-size: 1rem;   /* تصغير الأزرار */
+    padding: 4px 8px;
+  }
+}
