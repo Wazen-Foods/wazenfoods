@@ -23,7 +23,7 @@ function renderMenu() {
   const logo = document.getElementById("logo");
   logo.innerHTML = ""; // إزالة أي شعار قديم
   const wazen_logo = document.createElement("img");
-  wazen_logo.src = "assets/images/wazen-elements-04.png";
+  wazen_logo.src = "assets/images/wazen-logo.png";
   wazen_logo.alt = "Wazen";
   wazen_logo.classList.add("logo");
   logo.appendChild(wazen_logo);
