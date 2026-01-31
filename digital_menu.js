@@ -22,10 +22,11 @@ function renderMenu() {
   // شعار وازن
   const logo = document.getElementById("logo");
   logo.innerHTML = ""; // إزالة أي شعار قديم
+  logo.classList.add("logo");
   const wazen_logo = document.createElement("img");
   wazen_logo.src = "assets/images/wazen-logo.png";
   wazen_logo.alt = "Wazen";
-  wazen_logo.classList.add("logo");
+  wazen_logo.classList.add("wazen-logo");
   logo.appendChild(wazen_logo);
 
   langToggle.textContent = currentLang === "ar" ? "English" : "العربية";
@@ -38,8 +39,16 @@ function renderMenu() {
     const btn = document.createElement("button");
     btn.textContent = section.title[currentLang];
     btn.addEventListener("click", () => {
-      document.getElementById(`section-${index}`).scrollIntoView({ behavior: "smooth" });
+      const section = document.getElementById(`section-${index}`);
+      const headerHeight = document.querySelector("header").offsetHeight;
+      const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+
+      window.scrollTo({
+        top: sectionTop - headerHeight,  // نزّل أقل ارتفاع الهيدر
+        behavior: "smooth"
+      });
     });
+
     sectionsNav.appendChild(btn);
 
     // القسم
