@@ -277,7 +277,7 @@ h2 {
   }
 
   .logo {
-    height: 50px;              /* نثبت الارتفاع */
+    height: 20px;              /* نثبت الارتفاع */
     width: auto;               /* ونترك العرض يتكيف */
     max-width: 200px;          /* حد أقصى */
     object-fit: contain;
