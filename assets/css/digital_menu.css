@@ -268,15 +268,19 @@ h2 {
 
   .header {
     padding: 6px 12px;
+    max-height: 90px;          /* يقيّد ارتفاع الهيدر */
   }
 
   .header-top {
     max-width: 100%;
+    align-items: center;
   }
 
   .logo {
-    width: 30%;        /* كان 40% */
-    max-width: 250px;  /* حد أعلى منطقي */
+    height: 50px;              /* نثبت الارتفاع */
+    width: auto;               /* ونترك العرض يتكيف */
+    max-width: 200px;          /* حد أقصى */
+    object-fit: contain;
   }
 
   #lang-toggle {
@@ -285,13 +289,16 @@ h2 {
   }
 
   .sections-nav {
-    margin-top: 8px;
+    margin-top: 6px;
     margin-bottom: 6px;
-    gap: 8px;
+    gap: 6px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
   }
 
   .sections-nav button {
-    font-size: 1rem;   /* تصغير الأزرار */
+    font-size: 0.95rem;   /* تصغير الأزرار */
     padding: 4px 8px;
   }
 }
