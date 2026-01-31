@@ -145,11 +145,24 @@ h2 {
 =========================== */
 .prices-header, .item-row {
   display: grid;
-  grid-template-columns: 50% repeat(3, 1fr); /* الاسم 50% + 3 أعمدة أسعار */
+  grid-template-columns: 10% 3fr repeat(3, 1fr); /* عمود للصورة + الاسم + 3 أعمدة أسعار */
   gap: 10px;
   align-items: center;
   min-width: 1200px; /* يمنع تكسير الجدول على شاشات صغيرة */
   direction: inherit;
+}
+
+.item-image img {
+  width: 100%;      /* 100% من عرض العمود */
+  aspect-ratio: 1; /* يضمن مربع كامل */
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  display: block;      /* مهم لتجنب مشاكل inline */
+}
+
+.item-image img.placeholder {
+  opacity: 0.75; /* 75% شفافية */
 }
 
 .item-name, .item-title {
