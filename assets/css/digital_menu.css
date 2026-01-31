@@ -269,6 +269,7 @@ h2 {
   .header {
     padding: 6px 12px;
     max-height: 90px;          /* يقيّد ارتفاع الهيدر */
+    background: red !important;
   }
 
   .header-top {
