@@ -264,12 +264,11 @@ h2 {
 /* ===========================
    تحسين الهيدر على الجوال بالعرض
 =========================== */
-@media (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
 
   .header {
     padding: 6px 12px;
     max-height: 90px;          /* يقيّد ارتفاع الهيدر */
-    background: red !important;
   }
 
   .header-top {
@@ -278,7 +277,7 @@ h2 {
   }
 
   .logo {
-    height: 20px;              /* نثبت الارتفاع */
+    height: 40px;              /* نثبت الارتفاع */
     width: auto;               /* ونترك العرض يتكيف */
     max-width: 200px;          /* حد أقصى */
     object-fit: contain;
