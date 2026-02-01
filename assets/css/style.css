@@ -11,6 +11,8 @@ body,html{
     background-color: #191d2b;
     min-height: 100%;
     overflow-y: auto; /* أو احذفي السطر بالكامل */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 @media (max-height: 385px){
