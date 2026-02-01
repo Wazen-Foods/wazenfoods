@@ -9,9 +9,8 @@ body,html{
     margin:0;
     padding:0;
     background-color: #191d2b;
-    margin: 0;
-    height: 100%;
-    overflow-y: hidden
+    min-height: 100%;
+    overflow-y: auto; /* أو احذفي السطر بالكامل */
 }
 
 @media (max-height: 385px){
