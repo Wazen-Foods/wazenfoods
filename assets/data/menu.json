@@ -640,26 +640,6 @@
           "name": { "ar": "سبانيش لاتيه", "en": "Spanish Latte" },
           "description": { "ar": "", "en": "" },
           "prices": { "medium": "2 JD", "large": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "لاتيه مثلج", "en": "Iced Latte" },
-          "description": { "ar": "لكافة أنواع اللاتيه", "en": "for all types of Latte" },
-          "prices": { "medium": "2 JD", "large": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "موكاتشينو", "en": "Mocha" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "2 JD", "large": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وايت موكا", "en": "White Mocha" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "2 JD", "large": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "موكاتشينو مثلج", "en": "Iced Mocha" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "2 JD", "large": "2.5 JD" }
         }
       ]
     },
