@@ -1,0 +1,60 @@
+    {
+      "title": { "ar": "المشروبات الموسمية", "en": "Seasonal Drinks" },
+      "items": [
+        {
+          "name": { "ar": "سحلب", "en": "Sahlab" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1 JD", "large": "1.5 JD" }
+        },
+        {
+          "name": { "ar": "هوت شوكليت", "en": "Hot Chocolate" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.25 JD", "large": "1.75 JD" }
+        },
+        {
+          "name": { "ar": "وايت هوت شوكليت", "en": "White Hot Chocolate" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.25 JD", "large": "1.75 JD" }
+        },
+        {
+          "name": { "ar": "حليب بالزنجبيل", "en": "Ginger Milk" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1 JD", "large": "1.5 JD" }
+        },
+        {
+          "name": { "ar": "كوكتيل أصفهاني", "en": "Asfahani Cocktail" },
+          "description": { "ar": "مزيج من الموز والحليب والمانجا والعسل", "en": "A blend of banana, milk, mango and honey" },
+          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
+        },
+        {
+          "name": { "ar": "انتعاش الحبيبات", "en": "Seeds Splash" },
+          "description": { "ar": "مزيج منعش وطازج من الصبار والمانجا والبرتقال", "en": "A refreshing blend of prickly pears, mango, and orange." },
+          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "-" }
+        },
+        {
+          "name": { "ar": "مجنون الفاكهة الاستوائية", "en": "Crazy Tropical" },
+          "description": { "ar": "مزيج مميز من الأناناس والبرتقال والدراق", "en": "A unique blend of pineapple, orange, and peach." },
+          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
+        },
+        {
+          "name": { "ar": "عوار قلب", "en": "Awar Galb Cocktail" },
+          "description": { "ar": "مزيج لذيذ من الفراولة والمانجا وبوظة الفانيلا", "en": "A blend of strawberry, mango and vanilla icecream" },
+          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
+        },
+        {
+          "name": { "ar": "سلش", "en": "Fresh Fruit Slush" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "0.75 JD", "large": "1.25 JD", "litre": "1.75 JD" }
+        },
+        {
+          "name": { "ar": "آيس تي", "en": "Iced Tea" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "0.75 JD", "large": "1.25 JD" }
+        },
+        {
+          "name": { "ar": "موهيتو سفن", "en": "Mohito" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "large": "1.5 JD" }
+        }
+      ]
+    }

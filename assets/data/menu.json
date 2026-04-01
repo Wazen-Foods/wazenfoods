@@ -185,14 +185,19 @@
           "prices": { "price": "4 JD" }
         },
         {
-          "name": { "ar": "وجبة شاورما دجاج عائلية", "en": "Saj Chicken Shawerma Family Meal" },
+          "name": { "ar": "وجبة شاورما دجاج عائلية", "en": "Saj Shawerma Chicken Family Meal" },
           "description": { "ar": "30 قطعة، مخلل، بطاطا، كولسلو، مثومة، 3 مشروبات غازية", "en": "30pieces, pickles, fries, garlic sauce, coleslaw, 3 soft drinks" },
           "prices": { "price": "10 JD" }
         },
         {
-          "name": { "ar": "وجبة شاورما لحم عائلية", "en": "Saj Meat Shawerma Family Meal" },
-          "description": { "ar": "30 قطعة، مخلل، بطاطا، كولسلو، طحينية، 3 مشروبات غازية", "en": "30pieces, pickles, fries, tahini sauce, coleslaw, 3 soft drinks" },
+          "name": { "ar": "وجبة شاورما لحم عائلية", "en": "Saj Shawerma Meat Family Meal" },
+          "description": { "ar": "30 قطعة، مخلل، بطاطا، كولسلو، طحينية، 3 مشروبات غازية", "en": "30mix pieces, pickles, fries, tahini sauce, coleslaw, 3 soft drinks" },
           "prices": { "price": "12 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما عائلية مكس", "en": "Saj Shawerma Mix Family Meal" },
+          "description": { "ar": "30 قطعة مكس، مخلل، بطاطا، كولسلو، طحينية، 3 مشروبات غازية", "en": "30mix pieces, pickles, fries, tahini sauce, coleslaw, 3 soft drinks" },
+          "prices": { "price": "11 JD" }
         }
       ]
     },
@@ -349,6 +354,11 @@
           "name": { "ar": "مفن البيض", "en": "Eggs Muffin" },
           "description": { "ar": "خبزة المفن الطازجة مع البيض والخس ", "en": "Fresh muffin bread with egg and lettuce" },
           "prices": { "price": "1 JD" }
+        },
+        {
+          "name": { "ar": "مفن الحلوم", "en": "Halloum Muffin" },
+          "description": { "ar": "خبزة المفن الطازجة مع جبن الحلوم والخضار ", "en": "Fresh muffin bread with halloum cheese and fresh veggies" },
+          "prices": { "price": "1.5 JD" }
         },
         {
           "name": { "ar": "توست حلوم", "en": "Halloum Toast" },
@@ -575,46 +585,11 @@
           "name": { "ar": "بروتين شيك", "en": "Protien Shake" },
           "description": { "ar": "", "en": "" },
           "prices": { "large": "3 JD" }
-        },
-        {
-          "name": { "ar": "كوكتيل أصفهاني", "en": "Asfahani Cocktail" },
-          "description": { "ar": "مزيج من الموز والحليب والمانجا والعسل", "en": "A blend of banana, milk, mango and honey" },
-          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
-        },
-        {
-          "name": { "ar": "انتعاش الحبيبات", "en": "Seeds Splash" },
-          "description": { "ar": "مزيج منعش وطازج من الصبار والمانجا والبرتقال", "en": "A refreshing blend of prickly pears, mango, and orange." },
-          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "-" }
-        },
-        {
-          "name": { "ar": "مجنون الفاكهة الاستوائية", "en": "Crazy Tropical" },
-          "description": { "ar": "مزيج مميز من الأناناس والبرتقال والدراق", "en": "A unique blend of pineapple, orange, and peach." },
-          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
-        },
-        {
-          "name": { "ar": "عوار قلب", "en": "Awar Galb Cocktail" },
-          "description": { "ar": "مزيج لذيذ من الفراولة والمانجا وبوظة الفانيلا", "en": "A blend of strawberry, mango and vanilla icecream" },
-          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
-        },
-        {
-          "name": { "ar": "سلش", "en": "Fresh Fruit Slush" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "0.75 JD", "large": "1.25 JD", "litre": "1.75 JD" }
-        },
-        {
-          "name": { "ar": "آيس تي", "en": "Iced Tea" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "0.75 JD", "large": "1.25 JD" }
-        },
-        {
-          "name": { "ar": "موهيتو سفن", "en": "Mohito" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "large": "1.5 JD" }
         }
       ]
     },
     {
-      "title": { "ar": "المشروبات الساخنة", "en": "Hot Drinks" },
+      "title": { "ar": "القهوة", "en": "Coffee" },
       "items": [
         {
           "name": { "ar": "قهوة تركي", "en": "Turkish Coffee" },
@@ -675,7 +650,12 @@
           "name": { "ar": "وايت موكا", "en": "White Mocha" },
           "description": { "ar": "", "en": "" },
           "prices": { "medium": "2 JD", "large": "2.5 JD" }
-        },
+        }
+      ]
+    },
+    {
+      "title": { "ar": "المشروبات الموسمية", "en": "Seasonal Drinks" },
+      "items": [
         {
           "name": { "ar": "سحلب", "en": "Sahlab" },
           "description": { "ar": "", "en": "" },
