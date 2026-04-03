@@ -1,5 +1,130 @@
 {
-  "sections": [
+  "sections":[
+        {
+        "title": { "ar": "الإفطار", "en": "Breakfast" },
+        "items": [
+        {
+          "name": { "ar": "فطور وازن", "en": "Wazen Breakfast" },
+          "description": { "ar": "لفة البيض والهاش، بان كيك، عصير برتقال", "en": "Egg and hash brown wrap, pancakes, orange juice" },
+          "prices": { "price": "3 JD" }
+        },
+        {
+          "name": { "ar": "فطور انجليزي", "en": "English Breakfast" },
+          "description": { "ar": "بيض مخفوق، هاش براون، نقانق الإفطار، خبز المفن، قهوة سوداء", "en": "Scrambled eggs, hash browns, breakfast sausage, English muffin, black coffee" },
+          "prices": { "price": "3 JD" }
+        },
+        {
+          "name": { "ar": "فطور سريع", "en": "Quick Breakfast" },
+          "description": { "ar": "مفن البيض، هاش براون، قهوة سوداء", "en": "Egg muffin, hash browns, black coffee" },
+          "prices": { "price": "2.25 JD" }
+        },
+        {
+          "name": { "ar": "فطور مشهور", "en": "Mashour Breakfast" },
+          "description": { "ar": "لفة بيض وهاش، مفن البيض، هاش براون", "en": "Egg and Hash Wrap, Egg Muffin, Hash Brown" },
+          "prices": { "price": "2.75 JD" }
+        },
+        {
+          "name": { "ar": "فطور صحي", "en": "Healthy Breakfast" },
+          "description": { "ar": "توست سلطة البيض بالخبز الأسمر، لبن يوناني بالشوفان والفواكه، مكسرات وخضار طازجة، عصير برتقال", "en": "Egg Salad Toast, Greek Yogurt with oats and fruits, nutts and veggies, orange juice" },
+          "prices": { "price": "3.75 JD" }
+        },
+        {
+          "name": { "ar": "فطور أطفال", "en": "Kids Breakfast" },
+          "description": { "ar": "لفة بيض، بان كيك، عصير برتقال", "en": "Egg wrap, pancakes, orange juice" },
+          "prices": { "price": "2.5 JD" }
+        },
+        {
+          "name": { "ar": "لفة البيض والهاش", "en": "Hash and Eggs Wrap" },
+          "description": { "ar": "البيض المخفوق والهاش براون والخس بلفة خبز التورتيلا", "en": "Scrambled eggs, hash browns, and lettuce wrapped in a tortilla" },
+          "prices": { "price": "1.5 JD" }
+        },
+        {
+          "name": { "ar": "كاساديا البيض", "en": "Eggs Quesadilla" },
+          "description": { "ar": "كاساديا البيض مع الخضار والجبن بخبز التورتيلا", "en": "Egg quesadilla with vegetables and cheese in tortilla bread" },
+          "prices": { "price": "1.75 JD" }
+        },
+        {
+          "name": { "ar": "كاساديا مكس أجبان", "en": "Mix Cheese Quesadilla" },
+          "description": { "ar": "كاساديا الأجبان المتنوعة مع الزيتون والأوريغانو", "en": "Mix Cheese quesadilla with olives and oregano" },
+          "prices": { "price": "2 JD" }
+        },
+        {
+          "name": { "ar": "مفن البيض", "en": "Eggs Muffin" },
+          "description": { "ar": "خبزة المفن الطازجة مع البيض والخس ", "en": "Fresh muffin bread with egg and lettuce" },
+          "prices": { "price": "1 JD" }
+        },
+        {
+          "name": { "ar": "مفن الحلوم", "en": "Halloum Muffin" },
+          "description": { "ar": "خبزة المفن الطازجة مع جبن الحلوم والخضار ", "en": "Fresh muffin bread with halloum cheese and fresh veggies" },
+          "prices": { "price": "1.5 JD" }
+        },
+        {
+          "name": { "ar": "توست حلوم", "en": "Halloum Toast" },
+          "description": { "ar": "جبن الحلوم والخضار بخبز التوست المحمص", "en": "Halloumi cheese and vegetables on toasted bread" },
+          "prices": { "price": "2 JD" }
+        },
+        {
+          "name": { "ar": "توست قشقوان", "en": "Kashkaval Toast" },
+          "description": { "ar": "جبن القشقوان والخضار بخبز التوست المحمص", "en": "Kashkaval cheese and vegetables on toasted bread" },
+          "prices": { "price": "1.5 JD" }
+        },
+        {
+          "name": { "ar": "توست أومليت", "en": "Omlette Toast" },
+          "description": { "ar": "بيض الاومليت بخبز التوست المحمص", "en": "Omelette eggs with toasted bread" },
+          "prices": { "price": "1.5 JD" }
+        },
+        {
+          "name": { "ar": "توست تيركي", "en": "Turkey Toast" },
+          "description": { "ar": "التيركي والجبنة والخضار بخبز التوست", "en": "Turkey, cheese, and vegetables on toast" },
+          "prices": { "price": "1.5 JD" }
+        },
+        {
+          "name": { "ar": "بان كيك", "en": "Pancake" },
+          "description": { "ar": "4 قطع من البان كيك", "en": "4 pieces of pancakes" },
+          "prices": { "price": "2.5 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش حلوم", "en": "Halloum Sandwich" },
+          "description": { "ar": "ساندويش الحلوم بالخبز الفرنسي أو التورتيلا", "en": "Halloumi sandwich in French bread or tortilla" },
+          "prices": { "price": "1.5 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش لحوم باردة", "en": "Cold Cuts Sandwich" },
+          "description": { "ar": "التيركي والروست بيف والمخلل والصوص بخبز الفرنسي أو التورتيلا", "en": "Turkey, roast beef, pickles, and sauce in French bread or tortilla" },
+          "prices": { "price": "1.5 JD" }
+        },
+        {
+          "name": { "ar": "هاش براون", "en": "Hash Brown" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "0.5 JD" }
+        }
+      ]
+    },
+    {
+        "title": { "ar": "صناديق مشاركة الإفطار", "en": "Breakfast Sharing Boxes" },
+        "items": [
+        {
+          "name": { "ar": "بوكس رواق", "en": "Rawaq Box" },
+          "description": { "ar": "3 لفات بيض وهاش، 3 قطع كاساديا، 3 هاش براون، 4 بانكيك، 3 قهوة", "en": "3 egg and hash wraps, 3 quesadilla pieces, 3 hash browns, 4 pancakes, 3 coffees" },
+          "prices": { "price": "7.9 JD" }
+        },
+        {
+          "name": { "ar": "بوكس أصحاب", "en": "Ashab Box" },
+          "description": { "ar": "4 توست منوّع (أومليت، حلوم، قشقوان، تيركي وجبنة)، 3 هاش براون، 4 بانكيك، 3 قهوة", "en": "4 toast sandwiches (omelette, halloumi, kashkaval, turkey and cheese), 3 hash browns, 4 pancakes, 3 coffees" },
+          "prices": { "price": "7.9 JD" }
+        },
+        {
+          "name": { "ar": "بوكس دلال", "en": "Dalal Box" },
+          "description": { "ar": "2 مفن البيض، لفة بيض وهاش، توست الحلوم، 3 قطع كاساديا، 4 هاش براون، 4 قطع بانكيك، 4 قهوة", "en": "2 egg muffins, egg and hash wrap, halloumi toast, 3 quesadilla pieces, 4 hash browns, 4 pancakes, 4 coffees" },
+          "prices": { "price": "9.9 JD" }
+        },
+        {
+          "name": { "ar": "بوكس الأنتيم", "en": "Intim Box" },
+          "description": { "ar": "لفتين بيض وهاش، 2 مفن البيض، 2 هاش براون، 4 بان كيك", "en": "2 egg and hash wraps,2 egg muffins,2 hash browns, 4 pancakes" },
+          "prices": { "price": "6.9 JD" }
+        }
+      ]
+    },
     {
       "title": { "ar": "الساندويتشات", "en": "Sandwiches" },
       "note": {"ar": "اختيارك من الخبز الفرنسي، خبز التورتيلا، أو الخبز الأسمر", "en": "Your choice of French bread, tortilla, or whole wheat bread"},
@@ -202,129 +327,7 @@
       ]
     },
     {
-      "title": { "ar": "الإفطار", "en": "Breakfast" },
-      "label": {"ar": "متوفر في فرع شارع مكة السحابي", "en": "Availabe in Mecca St. Cloud Branch"},
-      "items": [
-        {
-          "name": { "ar": "بوكس رواق", "en": "Rawaq Box" },
-          "description": { "ar": "3 لفات بيض وهاش، 3 قطع كاساديا، 3 هاش براون، 4 بانكيك، 3 قهوة", "en": "3 egg and hash wraps, 3 quesadilla pieces, 3 hash browns, 4 pancakes, 3 coffees" },
-          "prices": { "price": "7.9 JD" }
-        },
-        {
-          "name": { "ar": "بوكس أصحاب", "en": "Ashab Box" },
-          "description": { "ar": "4 توست منوّع (أومليت، حلوم، قشقوان، تيركي وجبنة)، 3 هاش براون، 4 بانكيك، 3 قهوة", "en": "4 toast sandwiches (omelette, halloumi, kashkaval, turkey and cheese), 3 hash browns, 4 pancakes, 3 coffees" },
-          "prices": { "price": "7.9 JD" }
-        },
-        {
-          "name": { "ar": "بوكس دلال", "en": "Dalal Box" },
-          "description": { "ar": "2 مفن البيض، لفة بيض وهاش، توست الحلوم، 3 قطع كاساديا، 4 هاش براون، 4 قطع بانكيك، 4 قهوة", "en": "2 egg muffins, egg and hash wrap, halloumi toast, 3 quesadilla pieces, 4 hash browns, 4 pancakes, 4 coffees" },
-          "prices": { "price": "9.9 JD" }
-        },
-        {
-          "name": { "ar": "بوكس الأنتيم", "en": "Intim Box" },
-          "description": { "ar": "لفتين بيض وهاش، 2 مفن البيض، 2 هاش براون، 4 بان كيك", "en": "2 egg and hash wraps,2 egg muffins,2 hash browns, 4 pancakes" },
-          "prices": { "price": "6.9 JD" }
-        },
-        {
-          "name": { "ar": "فطور وازن", "en": "Wazen Breakfast" },
-          "description": { "ar": "لفة البيض والهاش، بان كيك، عصير برتقال", "en": "Egg and hash brown wrap, pancakes, orange juice" },
-          "prices": { "price": "3 JD" }
-        },
-        {
-          "name": { "ar": "فطور انجليزي", "en": "English Breakfast" },
-          "description": { "ar": "بيض مخفوق، هاش براون، نقانق الإفطار، خبز المفن، قهوة سوداء", "en": "Scrambled eggs, hash browns, breakfast sausage, English muffin, black coffee" },
-          "prices": { "price": "3 JD" }
-        },
-        {
-          "name": { "ar": "فطور سريع", "en": "Quick Breakfast" },
-          "description": { "ar": "مفن البيض، هاش براون، قهوة سوداء", "en": "Egg muffin, hash browns, black coffee" },
-          "prices": { "price": "2.25 JD" }
-        },
-        {
-          "name": { "ar": "فطور مشهور", "en": "Mashour Breakfast" },
-          "description": { "ar": "لفة بيض وهاش، مفن البيض، هاش براون", "en": "Egg and Hash Wrap, Egg Muffin, Hash Brown" },
-          "prices": { "price": "2.75 JD" }
-        },
-        {
-          "name": { "ar": "فطور صحي", "en": "Healthy Breakfast" },
-          "description": { "ar": "توست سلطة البيض بالخبز الأسمر، لبن يوناني بالشوفان والفواكه، مكسرات وخضار طازجة، عصير برتقال", "en": "Egg Salad Toast, Greek Yogurt with oats and fruits, nutts and veggies, orange juice" },
-          "prices": { "price": "3.75 JD" }
-        },
-        {
-          "name": { "ar": "فطور أطفال", "en": "Kids Breakfast" },
-          "description": { "ar": "لفة بيض، بان كيك، عصير برتقال", "en": "Egg wrap, pancakes, orange juice" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "لفة البيض والهاش", "en": "Hash and Eggs Wrap" },
-          "description": { "ar": "البيض المخفوق والهاش براون والخس بلفة خبز التورتيلا", "en": "Scrambled eggs, hash browns, and lettuce wrapped in a tortilla" },
-          "prices": { "price": "1.5 JD" }
-        },
-        {
-          "name": { "ar": "كاساديا البيض", "en": "Eggs Quesadilla" },
-          "description": { "ar": "كاساديا البيض مع الخضار والجبن بخبز التورتيلا", "en": "Egg quesadilla with vegetables and cheese in tortilla bread" },
-          "prices": { "price": "1.75 JD" }
-        },
-        {
-          "name": { "ar": "كاساديا مكس أجبان", "en": "Mix Cheese Quesadilla" },
-          "description": { "ar": "كاساديا الأجبان المتنوعة مع الزيتون والأوريغانو", "en": "Mix Cheese quesadilla with olives and oregano" },
-          "prices": { "price": "2 JD" }
-        },
-        {
-          "name": { "ar": "مفن البيض", "en": "Eggs Muffin" },
-          "description": { "ar": "خبزة المفن الطازجة مع البيض والخس ", "en": "Fresh muffin bread with egg and lettuce" },
-          "prices": { "price": "1 JD" }
-        },
-        {
-          "name": { "ar": "مفن الحلوم", "en": "Halloum Muffin" },
-          "description": { "ar": "خبزة المفن الطازجة مع جبن الحلوم والخضار ", "en": "Fresh muffin bread with halloum cheese and fresh veggies" },
-          "prices": { "price": "1.5 JD" }
-        },
-        {
-          "name": { "ar": "توست حلوم", "en": "Halloum Toast" },
-          "description": { "ar": "جبن الحلوم والخضار بخبز التوست المحمص", "en": "Halloumi cheese and vegetables on toasted bread" },
-          "prices": { "price": "2 JD" }
-        },
-        {
-          "name": { "ar": "توست قشقوان", "en": "Kashkaval Toast" },
-          "description": { "ar": "جبن القشقوان والخضار بخبز التوست المحمص", "en": "Kashkaval cheese and vegetables on toasted bread" },
-          "prices": { "price": "1.5 JD" }
-        },
-        {
-          "name": { "ar": "توست أومليت", "en": "Omlette Toast" },
-          "description": { "ar": "بيض الاومليت بخبز التوست المحمص", "en": "Omelette eggs with toasted bread" },
-          "prices": { "price": "1.5 JD" }
-        },
-        {
-          "name": { "ar": "توست تيركي", "en": "Turkey Toast" },
-          "description": { "ar": "التيركي والجبنة والخضار بخبز التوست", "en": "Turkey, cheese, and vegetables on toast" },
-          "prices": { "price": "1.5 JD" }
-        },
-        {
-          "name": { "ar": "بان كيك", "en": "Pancake" },
-          "description": { "ar": "4 قطع من البان كيك", "en": "4 pieces of pancakes" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش حلوم", "en": "Halloum Sandwich" },
-          "description": { "ar": "ساندويش الحلوم بالخبز الفرنسي أو التورتيلا", "en": "Halloumi sandwich in French bread or tortilla" },
-          "prices": { "price": "1.5 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش لحوم باردة", "en": "Cold Cuts Sandwich" },
-          "description": { "ar": "التيركي والروست بيف والمخلل والصوص بخبز الفرنسي أو التورتيلا", "en": "Turkey, roast beef, pickles, and sauce in French bread or tortilla" },
-          "prices": { "price": "1.5 JD" }
-        },
-        {
-          "name": { "ar": "هاش براون", "en": "Hash Brown" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "0.5 JD" }
-        }
-      ]
-    },
-    {
       "title": { "ar": "السلطات", "en": "Salads" },
-      "label": {"ar": "متوفر في فرع شارع مكة السحابي", "en": "Availabe in Mecca St. Cloud Branch"},
       "items": [
         {
           "name": { "ar": "سلطة السيزر", "en": "Ceaser Salad" },
@@ -425,17 +428,17 @@
           "name": { "ar": "كوكيز", "en": "Cookies" },
           "description": { "ar": "", "en": "" },
           "prices": { "price": "1 JD", "with Ice Cream": "-" }
-        },
-        {
-          "name": { "ar": "سكوب بوظة", "en": "Icecream Scoop" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "1 JD", "with Ice Cream": "-" }
         }
       ]
     },
     {
       "title": { "ar": "المشروبات", "en": "Drinks" },
       "items": [
+        {
+          "name": { "ar": "ليموناضة", "en": "Lemonade" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.3 JD", "large": "1.8 JD", "litre": "2.75 JD" }
+        },
         {
           "name": { "ar": "عصير البرتقال", "en": "Orange Juice" },
           "description": { "ar": "", "en": "" },
@@ -448,31 +451,6 @@
         },
         {
           "name": { "ar": "قهوة أمريكية بالحليب", "en": "American Coffee with Milk" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1 JD", "large": "1.5 JD" }
-        }
-      ]
-    },
-    {
-      "title": { "ar": "المشروبات الموسمية", "en": "Seasonal Drinks" },
-      "items": [
-        {
-          "name": { "ar": "سحلب", "en": "Sahlab" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1 JD", "large": "1.5 JD" }
-        },
-        {
-          "name": { "ar": "هوت شوكليت", "en": "Hot Chocolate" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.25 JD", "large": "1.75 JD" }
-        },
-        {
-          "name": { "ar": "وايت هوت شوكليت", "en": "White Hot Chocolate" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.25 JD", "large": "1.75 JD" }
-        },
-        {
-          "name": { "ar": "حليب بالزنجبيل", "en": "Ginger Milk" },
           "description": { "ar": "", "en": "" },
           "prices": { "medium": "1 JD", "large": "1.5 JD" }
         }

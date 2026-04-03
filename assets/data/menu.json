@@ -282,29 +282,8 @@
       ]
     },
     {
-      "title": { "ar": "الإفطار", "en": "Breakfast" },
-      "label": {"ar": "متوفر في فرع شارع مكة السحابي", "en": "Availabe in Mecca St. Cloud Branch"},
-      "items": [
-        {
-          "name": { "ar": "بوكس رواق", "en": "Rawaq Box" },
-          "description": { "ar": "3 لفات بيض وهاش، 3 قطع كاساديا، 3 هاش براون، 4 بانكيك، 3 قهوة", "en": "3 egg and hash wraps, 3 quesadilla pieces, 3 hash browns, 4 pancakes, 3 coffees" },
-          "prices": { "price": "7.9 JD" }
-        },
-        {
-          "name": { "ar": "بوكس أصحاب", "en": "Ashab Box" },
-          "description": { "ar": "4 توست منوّع (أومليت، حلوم، قشقوان، تيركي وجبنة)، 3 هاش براون، 4 بانكيك، 3 قهوة", "en": "4 toast sandwiches (omelette, halloumi, kashkaval, turkey and cheese), 3 hash browns, 4 pancakes, 3 coffees" },
-          "prices": { "price": "7.9 JD" }
-        },
-        {
-          "name": { "ar": "بوكس دلال", "en": "Dalal Box" },
-          "description": { "ar": "2 مفن البيض، لفة بيض وهاش، توست الحلوم، 3 قطع كاساديا، 4 هاش براون، 4 قطع بانكيك، 4 قهوة", "en": "2 egg muffins, egg and hash wrap, halloumi toast, 3 quesadilla pieces, 4 hash browns, 4 pancakes, 4 coffees" },
-          "prices": { "price": "9.9 JD" }
-        },
-        {
-          "name": { "ar": "بوكس الأنتيم", "en": "Intim Box" },
-          "description": { "ar": "لفتين بيض وهاش، 2 مفن البيض، 2 هاش براون، 4 بان كيك", "en": "2 egg and hash wraps,2 egg muffins,2 hash browns, 4 pancakes" },
-          "prices": { "price": "6.9 JD" }
-        },
+    "title": { "ar": "الإفطار", "en": "Breakfast" },
+    "items": [
         {
           "name": { "ar": "فطور وازن", "en": "Wazen Breakfast" },
           "description": { "ar": "لفة البيض والهاش، بان كيك، عصير برتقال", "en": "Egg and hash brown wrap, pancakes, orange juice" },
@@ -403,8 +382,32 @@
       ]
     },
     {
+        "title": { "ar": "صناديق مشاركة الإفطار", "en": "Breakfast Sharing Boxes" },
+        "items": [
+        {
+          "name": { "ar": "بوكس رواق", "en": "Rawaq Box" },
+          "description": { "ar": "3 لفات بيض وهاش، 3 قطع كاساديا، 3 هاش براون، 4 بانكيك، 3 قهوة", "en": "3 egg and hash wraps, 3 quesadilla pieces, 3 hash browns, 4 pancakes, 3 coffees" },
+          "prices": { "price": "7.9 JD" }
+        },
+        {
+          "name": { "ar": "بوكس أصحاب", "en": "Ashab Box" },
+          "description": { "ar": "4 توست منوّع (أومليت، حلوم، قشقوان، تيركي وجبنة)، 3 هاش براون، 4 بانكيك، 3 قهوة", "en": "4 toast sandwiches (omelette, halloumi, kashkaval, turkey and cheese), 3 hash browns, 4 pancakes, 3 coffees" },
+          "prices": { "price": "7.9 JD" }
+        },
+        {
+          "name": { "ar": "بوكس دلال", "en": "Dalal Box" },
+          "description": { "ar": "2 مفن البيض، لفة بيض وهاش، توست الحلوم، 3 قطع كاساديا، 4 هاش براون، 4 قطع بانكيك، 4 قهوة", "en": "2 egg muffins, egg and hash wrap, halloumi toast, 3 quesadilla pieces, 4 hash browns, 4 pancakes, 4 coffees" },
+          "prices": { "price": "9.9 JD" }
+        },
+        {
+          "name": { "ar": "بوكس الأنتيم", "en": "Intim Box" },
+          "description": { "ar": "لفتين بيض وهاش، 2 مفن البيض، 2 هاش براون، 4 بان كيك", "en": "2 egg and hash wraps,2 egg muffins,2 hash browns, 4 pancakes" },
+          "prices": { "price": "6.9 JD" }
+        }
+      ]
+    },
+    {
       "title": { "ar": "السلطات", "en": "Salads" },
-      "label": {"ar": "متوفر في فرع شارع مكة السحابي", "en": "Availabe in Mecca St. Cloud Branch"},
       "items": [
         {
           "name": { "ar": "سلطة السيزر", "en": "Ceaser Salad" },

@@ -44,6 +44,18 @@ body {
   object-fit: contain;
 }
 
+.title {
+  height: 100%;
+}
+
+.header {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  color: #34495e;
+  font-size: 1.5rem;
+}
+
 #lang-toggle {
   background: #09737E;
   color: #fff;

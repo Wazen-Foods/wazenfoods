@@ -29,6 +29,13 @@ function renderMenu() {
   wazen_logo.classList.add("wazen-logo");
   logo.appendChild(wazen_logo);
 
+  // العنوان
+  title.innerHTML = ""; // إزالة أي عنوان قديم
+  const heading = document.createElement("h1");
+  heading.textContent = currentLang === "ar" ? "قائمة فرع شارع مكة" : "Meccah Street Menu";
+  heading.classList.add("menu-title");
+  title.appendChild(heading);
+
   langToggle.textContent = currentLang === "ar" ? "English" : "العربية";
 
   menuContainer.innerHTML = "";
