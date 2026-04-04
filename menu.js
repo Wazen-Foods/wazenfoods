@@ -38,6 +38,10 @@ function renderMenu() {
 
   langToggle.textContent = currentLang === "ar" ? "English" : "العربية";
 
+  document.getElementById("home-screen").onclick = () => {
+    window.location.href = "index.html";
+  };
+
   menuContainer.innerHTML = "";
   sectionsNav.innerHTML = "";
 

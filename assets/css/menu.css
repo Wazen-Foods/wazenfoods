@@ -1,3 +1,8 @@
+@font-face {
+    font-family: FFHekaya;
+    src: url(/assets/fonts/FFHekaya-Light.ttf);
+  }
+
 /* ===========================
    التنسيقات العامة
 =========================== */
@@ -28,7 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 95%;
   max-width: 1200px;
   height: 10vh;
   padding: 10px 20px;
@@ -53,21 +58,47 @@ body {
   padding-bottom: 8px;
   margin-bottom: 15px;
   color: #34495e;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-family:FFHekaya,sans-serif;
+}
+
+#buttons {
+  display: flex;
+  gap: 10px;
+  align-items: stretch; /* هذا المهم */
+}
+
+#buttons button {
+  flex: 1;
 }
 
 #lang-toggle {
-  background: #09737E;
+  background: #F9B149;
   color: #fff;
   border: none;
   padding: 8px 15px;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-family:FFHekaya,sans-serif;
 }
 
 #lang-toggle:hover {
-  background: #0a575f;
+  background: #e49221;
+}
+
+#home-screen {
+  background: #F9B149;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+#home-screen:hover {
+  background: #e49221;
 }
 
 /* ===========================
@@ -77,14 +108,14 @@ body {
   margin-top: 15px;
   margin-bottom: 10px;
   display: flex;
-  gap: 15px;
   flex-wrap: nowrap;      /* يمنع النزول لسطر ثاني */
   overflow-x: auto;       /* تفعيل السحب الأفقي */
   overflow-y: hidden;
-  justify-content: flex-start;
+  justify-content: center;
   -webkit-overflow-scrolling: touch; /* سحب ناعم على الموبايل */
   padding: 5px 10px;
-  max-width: 100%;          /* مهم */
+  width: 95%;
+  max-width: 1500px;
   box-sizing: border-box;
 }
 
@@ -98,19 +129,19 @@ body {
 }
 
 .sections-nav button {
-  background: #F9B149;
+  background: #09737E;
   color: #fff;
   border: none;
   padding: 6px 12px;
-  border-radius: 6px;
   cursor: pointer;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-family:FFHekaya,sans-serif;
   white-space: nowrap;
   flex-shrink: 0;   /* ما ينضغط الزر */
 }
 
 .sections-nav button:hover {
-  background: #e49221;
+  background: #0a575f;
 }
 
 /* ===========================
@@ -118,7 +149,8 @@ body {
 =========================== */
 .menu-section {
   margin: 30px auto;
-  max-width: 1200px;
+  width: 95%;
+  max-width: 1500px;
   background: #fff;
   border-radius: 12px;
   padding: 20px;
@@ -133,7 +165,8 @@ h2 {
   padding-bottom: 8px;
   margin-bottom: 15px;
   color: #34495e;
-  font-size: 2rem;
+  font-size: 2.25rem;
+  font-family:FFHekaya,sans-serif;
 }
 
 /* ===========================
@@ -145,12 +178,13 @@ h2 {
   background: #09737E; /* برتقالي فاتح */
   color: #fff;
   border-radius: 12px;
-  font-size: 1.15rem;
+  font-size: 1.4rem;
+  font-family:FFHekaya,sans-serif;
 }
 .section-label::before {
   content: "🏷 ";
   margin-right: 4px;
-  font-size: 1.2rem;
+  font-size: 1.45rem;
 }
 
 /* ===========================
@@ -162,7 +196,8 @@ h2 {
   background: #f3f8f9;
   border-inline-start: 4px solid #09737E;
   border-radius: 6px;
-  font-size: 1.15rem;
+  font-size: 1.4rem;
+  font-family:FFHekaya,sans-serif;
   color: #444;
 }
 
@@ -201,13 +236,15 @@ h2 {
 
 .item-name, .item-title {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.55rem;
+  font-family:FFHekaya,sans-serif;
   text-align: inherit;
 }
 
 .item-desc {
   font-weight: 400;
-  font-size: 1.15rem;
+  font-size: 1.4rem;
+  font-family:FFHekaya,sans-serif;
   color: #666;
   text-align: inherit;
   white-space: pre-wrap;
@@ -215,7 +252,8 @@ h2 {
 
 .item-price, .item-price-header {
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-family:FFHekaya,sans-serif;
   text-align: center;
 }
 
@@ -233,7 +271,8 @@ h2 {
   color: #09737E;
   cursor: help;
   position: relative;
-  font-size: 0.9rem;
+  font-size: 1.15rem;
+  font-family:FFHekaya,sans-serif;
   margin-inline-start: 4px;  /* المسافة بين الكلمة والنجمة */
 }
 
@@ -246,7 +285,8 @@ h2 {
   color: #fff;
   padding: 8px 12px;
   border-radius: 8px;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
+  font-family:FFHekaya,sans-serif;
   white-space: pre-line;
   text-align: start;
   opacity: 0;
@@ -290,7 +330,8 @@ h2 {
 /* للتأكد على الهواتف */
 @media (max-width: 768px) {
   .wazen-tooltip {
-    font-size: 1.25rem; /* حجم ثابت، نفس حجم باقي العناوين */
+    font-size: 1.5rem; /* حجم ثابت، نفس حجم باقي العناوين */
+    font-family:FFHekaya,sans-serif;
     display: block;  
   }
 }
