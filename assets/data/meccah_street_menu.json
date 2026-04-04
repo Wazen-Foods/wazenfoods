@@ -392,46 +392,6 @@
       ]
     },
     {
-      "title": { "ar": "الحلويات", "en": "Desserts" },
-      "items": [
-        {
-          "name": { "ar": "كريب", "en": "Crepe" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "2.5 JD", "with Ice Cream": "-" }
-        },
-        {
-          "name": { "ar": "وافل", "en": "Waffle" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "2.5 JD", "with Ice Cream": "3.25 JD" }
-        },
-        {
-          "name": { "ar": "وافل ستيك", "en": "Waffle Stick" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "1.25 JD", "with Ice Cream": "-" }
-        },
-        {
-          "name": { "ar": "كريم بروليه", "en": "Cremebrulee" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "1.5 JD", "with Ice Cream": "-" }
-        },
-        {
-          "name": { "ar": "بان كيك", "en": "Pancake" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "2.5 JD", "with Ice Cream": "-" }
-        },
-        {
-          "name": { "ar": "كوكيز بالفخارة", "en": "Cookie in Clay Pot" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "2.5 JD", "with Ice Cream": "3.25 JD" }
-        },
-        {
-          "name": { "ar": "كوكيز", "en": "Cookies" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "1 JD", "with Ice Cream": "-" }
-        }
-      ]
-    },
-    {
       "title": { "ar": "المشروبات", "en": "Drinks" },
       "items": [
         {
