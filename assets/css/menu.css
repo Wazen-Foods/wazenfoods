@@ -111,7 +111,7 @@ body {
   flex-wrap: nowrap;      /* يمنع النزول لسطر ثاني */
   overflow-x: auto;       /* تفعيل السحب الأفقي */
   overflow-y: hidden;
-  justify-content: center;
+  justify-content: start;
   -webkit-overflow-scrolling: touch; /* سحب ناعم على الموبايل */
   padding: 5px 10px;
   width: 95%;
