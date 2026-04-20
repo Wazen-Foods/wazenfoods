@@ -126,52 +126,6 @@
       ]
     },
     {
-      "title": { "ar": "الساندويتشات", "en": "Sandwiches" },
-      "note": {"ar": "اختيارك من الخبز الفرنسي، خبز التورتيلا، أو الخبز الأسمر", "en": "Your choice of French bread, tortilla, or whole wheat bread"},
-      "items": [
-        {
-          "name": { "ar": "ساندويتش زنجر", "en": "Zinger Sandwich" },
-          "description": { "ar": "ساندويش الدجاج المقرمش مع الخس والتيركي والجبنة والصوص", "en": "Fried chicken sandwich with lettuce, turkey, cheese and sauce" },
-          "prices": { "sandwich": "1.8 JD", "meal": "2.75 JD", "Wazen Meal": "4 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش فاهيتا الدجاج", "en": "Chicken Fajita Sandwich" },
-          "description": { "ar": "ساندويش الدجاج مع الفلفل الحلو والخس والجبنة والصوص", "en": "Chicken Pieces with bell pepper, lettuce, cheese and sauce" },
-          "prices": { "sandwich": "2 JD", "meal": "3 JD", "Wazen Meal": "4.25 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش الدجاج بالكريما", "en": "Chicken Cream Sandwich" },
-          "description": { "ar": "ساندويش الدجاج بالكريمة والبصل والفطر والخس والموزاريلا والصوص", "en": "Chicken with cream, onions, mushroom, lettuce, mozzarella and sauce" },
-          "prices": { "sandwich": "2 JD", "meal": "3 JD", "Wazen Meal": "4.25 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش ستيك اللحم البقري", "en": "Beef Steak Sandwich" },
-          "description": { "ar": "قطع ستيك اللحم مع البصل والفطر والفلفل الحلو والشيدر الأبيض والخس والبندورة والصوص", "en": "Meat Steak pieces with onions, mushroom, bell pepper, white chedder, lettuce, tomatos and sauce" },
-          "prices": { "sandwich": "2.5 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش صدر الدجاج المشوي", "en": "Grilled Chicken Sandwich" },
-          "description": { "ar": "قطع صدر الدجاج المشوي مع الخس والبندورة والفلفل الحلو والمخلل والصوص اللايت", "en": "Grilled Chicken Pieces with lettuce, tomatoes, bell pepper, pickles and light sauce" },
-          "prices": { "sandwich": "2.5 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
-        },
-        {
-          "name": { "ar": "زنجر بالكريما ساندويتش", "en": "Zinger Cream Sandwich" },
-          "description": { "ar": "قطع الدجاج المقلي مع الكريمة والفلفل الحلو والفطر والخس والموزاريلا والصوص", "en": "Friend Chicken pieces with cream, bell pepper, onion, mushroom, lettuce, mozzarella and sauce" },
-          "prices": { "sandwich": "2.25 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش بطاطا", "en": "Potato Sandwich" },
-          "description": { "ar": "بطاطا مقلية مع الكاتشاب والمايونيز والخس", "en": "French Fries with lettuce, ketchup and mayo" },
-          "prices": { "sandwich": "1 JD", "meal": "-", "Wazen Meal": "-" }
-        },
-        {
-          "name": { "ar": "ساندويتش حلوم", "en": "Halloum Sandwich" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "sandwich": "1.5 JD", "meal": "-", "Wazen Meal": "-" }
-        }
-      ]
-    },
-    {
       "title": { "ar": "البرغر", "en": "Burgers" },
       "items": [
         {
@@ -252,27 +206,48 @@
       ]
     },
     {
-      "title": { "ar": "الوجبات الصحية", "en": "Healthy Meals" },
+      "title": { "ar": "الساندويتشات", "en": "Sandwiches" },
+      "note": {"ar": "اختيارك من الخبز الفرنسي، خبز التورتيلا، أو الخبز الأسمر", "en": "Your choice of French bread, tortilla, or whole wheat bread"},
       "items": [
         {
-          "name": { "ar": "صدور الدجاج المشوية مع الخضار", "en": "Grilled Chicken Breast with Sauted Veggies" },
-          "description": { "ar": "صدر الدجاج المشوي مع الخضار السوتيه والبطاطا المهروسة (405 كالوري، 41 غرام بروتين، 15 غرام كاربوهيدرات)", "en": "Grilled chicken breast with sauteed veggies and mashed potatoes (405 calories, 41 grams protien, 15 grams carb)" },
-          "prices": { "price": "3.25 JD" }
+          "name": { "ar": "ساندويتش زنجر", "en": "Zinger Sandwich" },
+          "description": { "ar": "ساندويش الدجاج المقرمش مع الخس والتيركي والجبنة والصوص", "en": "Fried chicken sandwich with lettuce, turkey, cheese and sauce" },
+          "prices": { "sandwich": "1.8 JD", "meal": "2.75 JD", "Wazen Meal": "4 JD" }
         },
         {
-          "name": { "ar": "ستيك اللحم البقري مع الخضار", "en": "Grilled Meat Steak with Sauted Veggies" },
-          "description": { "ar": "فيلي ستيك مشوي مع خضار سوتيه وبطاطا مهروسة", "en": "Grilled meat steak with sauteed veggies and mashed potatoes" },
-          "prices": { "price": "4.25 JD" }
+          "name": { "ar": "ساندويتش فاهيتا الدجاج", "en": "Chicken Fajita Sandwich" },
+          "description": { "ar": "ساندويش الدجاج مع الفلفل الحلو والخس والجبنة والصوص", "en": "Chicken Pieces with bell pepper, lettuce, cheese and sauce" },
+          "prices": { "sandwich": "2 JD", "meal": "3 JD", "Wazen Meal": "4.25 JD" }
         },
         {
-          "name": { "ar": "وجبة الفاهيتا الصحية", "en": "Healthy Fajita Meal" },
-          "description": { "ar": "فاهيتا مع الخضار المشوية والرز الأبيض (460 كالوري، 36 غرام بروتين، 52 غرام كاربوهيدرات)", "en": "grilled fajita with plain rice" },
-          "prices": { "price": "3.5 JD" }
+          "name": { "ar": "ساندويتش الدجاج بالكريما", "en": "Chicken Cream Sandwich" },
+          "description": { "ar": "ساندويش الدجاج بالكريمة والبصل والفطر والخس والموزاريلا والصوص", "en": "Chicken with cream, onions, mushroom, lettuce, mozzarella and sauce" },
+          "prices": { "sandwich": "2 JD", "meal": "3 JD", "Wazen Meal": "4.25 JD" }
         },
         {
-          "name": { "ar": "الوجبة اليومية", "en": "Daily Meal" },
-          "description": { "ar": "اسألنا عن وجبة اليوم", "en": "ask us about today's meal" },
-          "prices": { "price": "3.75 JD" }
+          "name": { "ar": "ساندويتش ستيك اللحم البقري", "en": "Beef Steak Sandwich" },
+          "description": { "ar": "قطع ستيك اللحم مع البصل والفطر والفلفل الحلو والشيدر الأبيض والخس والبندورة والصوص", "en": "Meat Steak pieces with onions, mushroom, bell pepper, white chedder, lettuce, tomatos and sauce" },
+          "prices": { "sandwich": "2.5 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش صدر الدجاج المشوي", "en": "Grilled Chicken Sandwich" },
+          "description": { "ar": "قطع صدر الدجاج المشوي مع الخس والبندورة والفلفل الحلو والمخلل والصوص اللايت", "en": "Grilled Chicken Pieces with lettuce, tomatoes, bell pepper, pickles and light sauce" },
+          "prices": { "sandwich": "2.5 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
+        },
+        {
+          "name": { "ar": "زنجر بالكريما ساندويتش", "en": "Zinger Cream Sandwich" },
+          "description": { "ar": "قطع الدجاج المقلي مع الكريمة والفلفل الحلو والفطر والخس والموزاريلا والصوص", "en": "Friend Chicken pieces with cream, bell pepper, onion, mushroom, lettuce, mozzarella and sauce" },
+          "prices": { "sandwich": "2.25 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش بطاطا", "en": "Potato Sandwich" },
+          "description": { "ar": "بطاطا مقلية مع الكاتشاب والمايونيز والخس", "en": "French Fries with lettuce, ketchup and mayo" },
+          "prices": { "sandwich": "1 JD", "meal": "-", "Wazen Meal": "-" }
+        },
+        {
+          "name": { "ar": "ساندويتش حلوم", "en": "Halloum Sandwich" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "sandwich": "1.5 JD", "meal": "-", "Wazen Meal": "-" }
         }
       ]
     },
@@ -293,36 +268,6 @@
           "name": { "ar": "بوكس البركة", "en": "Barakeh Box" },
           "description": { "ar": "3 برغر دجاج 75 جرام\n3 برغر لحم كلاسيك 80 جرام\nبطاطا مقلية وصوصات\n3 مشروب غازي", "en": "3 Classic Chicken Burger 75 grams\n 3 Classic Beef Burgers 80 grams\nFrench Fries & Sauces\n3 Soft Drinks" },
           "prices": { "price": "11 JD" }
-        }
-      ]
-    },
-    {
-      "title": { "ar": "وجبات الأطفال", "en": "Kids Meals" },
-      "items": [
-        {
-          "name": { "ar": "وجبة الأبطال نجت الدجاج", "en": "Chicken Nuggets Champions Meal" },
-          "description": { "ar": "نجت الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken nuggets with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة الأبطال بوب كورن الدجاج", "en": "Chicken Popcorn Champions Meal" },
-          "description": { "ar": "بوشار الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken popcorn with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة الأبطال برغر اللحم", "en": "Beef Burger Champions Meal" },
-          "description": { "ar": "برغر اللحم مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "beef burger with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة الأبطال برغر الدجاج", "en": "Chicken Burger Champions Meal" },
-          "description": { "ar": "برغر الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken burger with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة الأبطال صدور الدجاج المشوي", "en": "Grilled Chicken Champions Meal" },
-          "description": { "ar": "قطع صدر الدجاج المشوي مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Grilled chicken breast pieces with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "3 JD" }
         }
       ]
     },
@@ -388,6 +333,61 @@
           "name": { "ar": "السلطة الموسمية", "en": "Seasonal Salad" },
           "description": { "ar": "اختيار وازن من خضار وفواكه الموسم", "en": "Our selection of seasonal fruits and vegetables" },
           "prices": { "small": "1.75 JD", "large": "2.75 JD" }
+        }
+      ]
+    },
+    {
+      "title": { "ar": "الوجبات الصحية", "en": "Healthy Meals" },
+      "items": [
+        {
+          "name": { "ar": "صدور الدجاج المشوية مع الخضار", "en": "Grilled Chicken Breast with Sauted Veggies" },
+          "description": { "ar": "صدر الدجاج المشوي مع الخضار السوتيه والبطاطا المهروسة (405 كالوري، 41 غرام بروتين، 15 غرام كاربوهيدرات)", "en": "Grilled chicken breast with sauteed veggies and mashed potatoes (405 calories, 41 grams protien, 15 grams carb)" },
+          "prices": { "price": "3.25 JD" }
+        },
+        {
+          "name": { "ar": "ستيك اللحم البقري مع الخضار", "en": "Grilled Meat Steak with Sauted Veggies" },
+          "description": { "ar": "فيلي ستيك مشوي مع خضار سوتيه وبطاطا مهروسة", "en": "Grilled meat steak with sauteed veggies and mashed potatoes" },
+          "prices": { "price": "4.25 JD" }
+        },
+        {
+          "name": { "ar": "وجبة الفاهيتا الصحية", "en": "Healthy Fajita Meal" },
+          "description": { "ar": "فاهيتا مع الخضار المشوية والرز الأبيض (460 كالوري، 36 غرام بروتين، 52 غرام كاربوهيدرات)", "en": "grilled fajita with plain rice" },
+          "prices": { "price": "3.5 JD" }
+        },
+        {
+          "name": { "ar": "الوجبة اليومية", "en": "Daily Meal" },
+          "description": { "ar": "اسألنا عن وجبة اليوم", "en": "ask us about today's meal" },
+          "prices": { "price": "3.75 JD" }
+        }
+      ]
+    },
+    {
+      "title": { "ar": "وجبات الأطفال", "en": "Kids Meals" },
+      "items": [
+        {
+          "name": { "ar": "وجبة الأبطال نجت الدجاج", "en": "Chicken Nuggets Champions Meal" },
+          "description": { "ar": "نجت الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken nuggets with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "2.5 JD" }
+        },
+        {
+          "name": { "ar": "وجبة الأبطال بوب كورن الدجاج", "en": "Chicken Popcorn Champions Meal" },
+          "description": { "ar": "بوشار الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken popcorn with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "2.5 JD" }
+        },
+        {
+          "name": { "ar": "وجبة الأبطال برغر اللحم", "en": "Beef Burger Champions Meal" },
+          "description": { "ar": "برغر اللحم مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "beef burger with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "2.5 JD" }
+        },
+        {
+          "name": { "ar": "وجبة الأبطال برغر الدجاج", "en": "Chicken Burger Champions Meal" },
+          "description": { "ar": "برغر الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken burger with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "2.5 JD" }
+        },
+        {
+          "name": { "ar": "وجبة الأبطال صدور الدجاج المشوي", "en": "Grilled Chicken Champions Meal" },
+          "description": { "ar": "قطع صدر الدجاج المشوي مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Grilled chicken breast pieces with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "3 JD" }
         }
       ]
     },

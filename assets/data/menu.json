@@ -1,287 +1,6 @@
 {
   "sections": [
-    {
-      "title": { "ar": "الساندويتشات", "en": "Sandwiches" },
-      "note": {"ar": "اختيارك من الخبز الفرنسي، خبز التورتيلا، أو الخبز الأسمر", "en": "Your choice of French bread, tortilla, or whole wheat bread"},
-      "items": [
         {
-          "name": { "ar": "ساندويتش زنجر", "en": "Zinger Sandwich" },
-          "description": { "ar": "ساندويش الدجاج المقرمش مع الخس والتيركي والجبنة والصوص", "en": "Fried chicken sandwich with lettuce, turkey, cheese and sauce" },
-          "prices": { "sandwich": "1.8 JD", "meal": "2.75 JD", "Wazen Meal": "4 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش فاهيتا الدجاج", "en": "Chicken Fajita Sandwich" },
-          "description": { "ar": "ساندويش الدجاج مع الفلفل الحلو والخس والجبنة والصوص", "en": "Chicken Pieces with bell pepper, lettuce, cheese and sauce" },
-          "prices": { "sandwich": "2 JD", "meal": "3 JD", "Wazen Meal": "4.25 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش الدجاج بالكريما", "en": "Chicken Cream Sandwich" },
-          "description": { "ar": "ساندويش الدجاج بالكريمة والبصل والفطر والخس والموزاريلا والصوص", "en": "Chicken with cream, onions, mushroom, lettuce, mozzarella and sauce" },
-          "prices": { "sandwich": "2 JD", "meal": "3 JD", "Wazen Meal": "4.25 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش ستيك اللحم البقري", "en": "Beef Steak Sandwich" },
-          "description": { "ar": "قطع ستيك اللحم مع البصل والفطر والفلفل الحلو والشيدر الأبيض والخس والبندورة والصوص", "en": "Meat Steak pieces with onions, mushroom, bell pepper, white chedder, lettuce, tomatos and sauce" },
-          "prices": { "sandwich": "2.5 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش صدر الدجاج المشوي", "en": "Grilled Chicken Sandwich" },
-          "description": { "ar": "قطع صدر الدجاج المشوي مع الخس والبندورة والفلفل الحلو والمخلل والصوص اللايت", "en": "Grilled Chicken Pieces with lettuce, tomatoes, bell pepper, pickles and light sauce" },
-          "prices": { "sandwich": "2.5 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
-        },
-        {
-          "name": { "ar": "زنجر بالكريما ساندويتش", "en": "Zinger Cream Sandwich" },
-          "description": { "ar": "قطع الدجاج المقلي مع الكريمة والفلفل الحلو والفطر والخس والموزاريلا والصوص", "en": "Friend Chicken pieces with cream, bell pepper, onion, mushroom, lettuce, mozzarella and sauce" },
-          "prices": { "sandwich": "2.25 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش بطاطا", "en": "Potato Sandwich" },
-          "description": { "ar": "بطاطا مقلية مع الكاتشاب والمايونيز والخس", "en": "French Fries with lettuce, ketchup and mayo" },
-          "prices": { "sandwich": "1 JD", "meal": "-", "Wazen Meal": "-" }
-        },
-        {
-          "name": { "ar": "ساندويتش حلوم", "en": "Halloum Sandwich" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "sandwich": "1.5 JD", "meal": "-", "Wazen Meal": "-" }
-        }
-      ]
-    },
-    {
-      "title": { "ar": "البرغر", "en": "Burgers" },
-      "items": [
-        {
-          "name": { "ar": "برغر لحم كلاسيك", "en": "Classic Beef Burger" },
-          "description": { "ar": "برغر اللحم البقري 80 غرام مع البندورة والخس والبصل والمخلل الحلو وجبن الشدر والصوص", "en": "80 grams beef burger, tomatoes, onions, lettuce, sweet piclesm chedder cheese, sauce" },
-          "prices": { "sandwich": "1.5 JD", "meal": "2.5 JD", "Wazen Meal": "3.75 JD" }
-        },
-        {
-          "name": { "ar": "برغر لحم كلاسيك جامبو", "en": "Classic Jumbo Beef Burger" },
-          "description": { "ar": "برغر اللحم البقري 125 غرام مع البندورة والخس والبصل والمخلل الحلو وجبن الشدر والصوص", "en": "125 grams beef burger, tomatoes, onions, lettuce, sweet piclesm chedder cheese, sauce" },
-          "prices": { "sandwich": "2.5 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
-        },
-        {
-          "name": { "ar": "سموكي برغر لحم", "en": "Smokey Beef Burger" },
-          "description": { "ar": "برغر اللحم البقري 150 غرام، بريسكت، لحم مقدد، بصل مكرمل، بندورة، خس، جبن تشيدرأبيض، صوص", "en": "150 grams beef burger, brisket, bacon, caramlised onions, tomato, lettuce, white chedder, sauce" },
-          "prices": { "sandwich": "3.75 JD", "meal": "4.75 JD", "Wazen Meal": "6 JD" }
-        },
-        {
-          "name": { "ar": "سويس ماشروم برغر لحم", "en": "Swiss Mushroom Beef Burger" },
-          "description": { "ar": "برغر اللحم البقري 150 غرام مع الخس والبندورة وصوص الفطر بالكريمة وجبن الموزرايلا", "en": "150 grams beef burger, lettuce, tomato, creamy mushroom sauce and mozzeralla" },
-          "prices": { "sandwich": "3.75 JD", "meal": "4.75 JD", "Wazen Meal": "6 JD" }
-        },
-        {
-          "name": { "ar": "برغر دجاج 75 غرام", "en": "Chicken Burger" },
-          "description": { "ar": "برغر الدجاج المقرمش 75 غرام مع الخس والبندورة وصوص الريليش والجبنة", "en": "75 grams crunchy chicken burger with lettuce, tomatos, relish sauce and cheese" },
-          "prices": { "sandwich": "1.5 JD", "meal": "2.5 JD", "Wazen Meal": "3.75 JD" }
-        },
-        {
-          "name": { "ar": "جراند برغر الدجاج المقرمش 137 غرام", "en": "Grand Crispy Chicken Burger" },
-          "description": { "ar": "جراند برغر الدجاج فائق القرمشة 137 غرام، خس، بندورة، كولسلو، صوص الريلش، جبنة", "en": "137 grams crispy chicken burger, coleslaw lettuce, tomato, relish sauce, cheese" },
-          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
-        },
-        {
-          "name": { "ar": "جراند برغر الدجاج حار نار", "en": "Spicy Grand Crispy Chicken Burger" },
-          "description": { "ar": "جراند برغر الدجاج فائق القرمشة 137 غرام، خس، بندورة، هالابينو، صوص الريلش، جبنة", "en": "137 grams crispy chicken burger, Jalapeño, lettuce, tomato, spicy sauce, cheese" },
-          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
-        },
-        {
-          "name": { "ar": "جراند برغر الدجاج باربكيو", "en": "Barbeque Grand Crispy Chicken Burger" },
-          "description": { "ar": "جراند برغر الدجاج فائق القرمشة 137 غرام، خس، بندورة، لحم مقدد، صوص الباربكيو، جبنة", "en": "137 grams crispy chicken burger, beef bacon, lettuce, tomato, barbeque sauce, cheese" },
-          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
-        },
-        {
-          "name": { "ar": "جراند برغر الدجاج انتعاش", "en": "Refresh Grand Crispy Chicken Burger" },
-          "description": { "ar": "جراند برغر الدجاج فائق القرمشة 137 غرام، جرجير، خس، بندورة، تيركي، صوص الرانش، جبنة", "en": "137 grams crispy chicken burger, turkey, lettuce, rocket, tomato, ranch sauce, cheese" },
-          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
-        },
-        {
-          "name": { "ar": "برغر الدجاج المشوي", "en": "Grilled Chicken Burger" },
-          "description": { "ar": "صدر الدجاج المشوي مع البندورة والخس والصوص بخبز البرغر", "en": "Grilled chicken breat with tomatoes and lettuce in burger bun" },
-          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
-        },
-        {
-          "name": { "ar": "برغر لايت", "en": "Light Burger" },
-          "description": { "ar": "برغر اللحم البقري بالخس بدل من الخبز", "en": "Beef burger wraped in lettuce" },
-          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
-        },
-        {
-          "name": { "ar": "برغر فلات", "en": "Flat Burger" },
-          "description": { "ar": "برغر اللحم البقري مع صوص الباربكيو", "en": "Beef Burger with Barbecue Sauce" },
-          "prices": { "sandwich": "1.75 JD", "meal": "-", "Wazen Meal": "-" }
-        },
-        {
-          "name": { "ar": "وجبة برغر فلات", "en": "Flat Burger Meal" },
-          "description": { "ar": "2 ساندويش فلات برغر، علبتين من الصوص، بطاطا ومشروب غازي", "en": "2flat burger sandwiches, 2 sauces, fries and drink" },
-          "prices": { "sandwich": "-", "meal": "4.5 JD", "Wazen Meal": "-" }
-        },
-        {
-          "name": { "ar": "بيغ واز", "en": "Big Waz" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "sandwich": "2.25 JD", "meal": "3 JD", "Wazen Meal": "-" }
-        },
-        {
-          "name": { "ar": "بيغ واز تشيكن", "en": "Big Waz Chicken" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "sandwich": "2.25 JD", "meal": "3 JD", "Wazen Meal": "-" }
-        }
-      ]
-    },
-    {
-      "title": { "ar": "شاورما على الصاج", "en": "Shawerma" },
-      "items": [
-        {
-          "name": { "ar": "ساندويتش شاورما صاج دجاج صغير", "en": "Small Saj Chicken Shawerma Sandwich" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "0.9 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش شاورما صاج دجاج كبير", "en": "Big Saj Chicken Shawerma Sandwich" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "1.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة شاورما دجاج عادي", "en": "Saj Chicken Shawerma Regular Meal" },
-          "description": { "ar": "6 قطع، مخلل، بطاطا، كولسلو، مثومة", "en": "6pieces, pickles, fries, garlic sauce, coleslaw" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة شاورما دجاج سوبر", "en": "Saj Chicken Shawerma Super Meal" },
-          "description": { "ar": "9 قطع، مخلل، بطاطا، كولسلو، مثومة", "en": "9pieces, pickles, fries, garlic sauce, coleslaw" },
-          "prices": { "price": "3.25 JD" }
-        },
-        {
-          "name": { "ar": "وجبة شاورما دجاج دبل", "en": "Saj Chicken Shawerma Double Meal" },
-          "description": { "ar": "12 قطعة، مخلل، بطاطا، كولسلو، مثومة، مشروب غازي", "en": "12pieces, pickles, fries, garlic sauce, coleslaw, soft drink" },
-          "prices": { "price": "3.75 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش شاورما صاج لحم صغير", "en": "Small Saj Meat Shawerma Sandwich" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "1.25 JD" }
-        },
-        {
-          "name": { "ar": "ساندويتش شاورما صاج لحم كبير", "en": "Big Saj Meat Shawerma Sandwich" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "2 JD" }
-        },
-        {
-          "name": { "ar": "وجبة شاورما لحم عادي", "en": "Saj Meat Shawerma Regular Meal" },
-          "description": { "ar": "6 قطع، مخلل، بطاطا، كولسلو، طحينية", "en": "6pieces, pickles, fries, tahini sauce, coleslaw" },
-          "prices": { "price": "3 JD" }
-        },
-        {
-          "name": { "ar": "وجبة شاورما لحم سوبر", "en": "Saj Meat Shawerma Super Meal" },
-          "description": { "ar": "9 قطع، مخلل، بطاطا، كولسلو، طحينية", "en": "9pieces, pickles, fries, tahini sauce, coleslaw" },
-          "prices": { "price": "3.75 JD" }
-        },
-        {
-          "name": { "ar": "وجبة شاورما لحم دبل", "en": "Saj Meat Shawerma Double Meal" },
-          "description": { "ar": "12 قطعة، مخلل، بطاطا، كولسلو، طحينية، مشروب غازي", "en": "12pieces, pickles, fries, tahini sauce, coleslaw, soft drink" },
-          "prices": { "price": "4.25 JD" }
-        },
-        {
-          "name": { "ar": "وجبة شاورما دبل مكس", "en": "Saj Shawerma Mix Double Meal" },
-          "description": { "ar": "12 قطعة مكس، مخلل، بطاطا، كولسلو، طحينية، مثومة، مشروب غازي", "en": "12mix pieces, pickles, fries, tahini sauce, garlic sauce, coleslaw, soft drink" },
-          "prices": { "price": "4 JD" }
-        },
-        {
-          "name": { "ar": "وجبة شاورما دجاج عائلية", "en": "Saj Shawerma Chicken Family Meal" },
-          "description": { "ar": "30 قطعة، مخلل، بطاطا، كولسلو، مثومة، 3 مشروبات غازية", "en": "30pieces, pickles, fries, garlic sauce, coleslaw, 3 soft drinks" },
-          "prices": { "price": "10 JD" }
-        },
-        {
-          "name": { "ar": "وجبة شاورما لحم عائلية", "en": "Saj Shawerma Meat Family Meal" },
-          "description": { "ar": "30 قطعة، مخلل، بطاطا، كولسلو، طحينية، 3 مشروبات غازية", "en": "30mix pieces, pickles, fries, tahini sauce, coleslaw, 3 soft drinks" },
-          "prices": { "price": "12 JD" }
-        },
-        {
-          "name": { "ar": "وجبة شاورما عائلية مكس", "en": "Saj Shawerma Mix Family Meal" },
-          "description": { "ar": "30 قطعة مكس، مخلل، بطاطا، كولسلو، طحينية، 3 مشروبات غازية", "en": "30mix pieces, pickles, fries, tahini sauce, coleslaw, 3 soft drinks" },
-          "prices": { "price": "11 JD" }
-        }
-      ]
-    },
-    {
-      "title": { "ar": "الوجبات الصحية", "en": "Healthy Meals" },
-      "items": [
-        {
-          "name": { "ar": "صدور الدجاج المشوية مع الخضار", "en": "Grilled Chicken Breast with Sauted Veggies" },
-          "description": { "ar": "صدر الدجاج المشوي مع الخضار السوتيه والبطاطا المهروسة (405 كالوري، 41 غرام بروتين، 15 غرام كاربوهيدرات)", "en": "Grilled chicken breast with sauteed veggies and mashed potatoes (405 calories, 41 grams protien, 15 grams carb)" },
-          "prices": { "price": "3.25 JD" }
-        },
-        {
-          "name": { "ar": "ستيك اللحم البقري مع الخضار", "en": "Grilled Meat Steak with Sauted Veggies" },
-          "description": { "ar": "فيلي ستيك مشوي مع خضار سوتيه وبطاطا مهروسة", "en": "Grilled meat steak with sauteed veggies and mashed potatoes" },
-          "prices": { "price": "4.25 JD" }
-        },
-        {
-          "name": { "ar": "وجبة الفاهيتا الصحية", "en": "Healthy Fajita Meal" },
-          "description": { "ar": "فاهيتا مع الخضار المشوية والرز الأبيض (460 كالوري، 36 غرام بروتين، 52 غرام كاربوهيدرات)", "en": "grilled fajita with plain rice" },
-          "prices": { "price": "3.5 JD" }
-        },
-        {
-          "name": { "ar": "الوجبة اليومية", "en": "Daily Meal" },
-          "description": { "ar": "اسألنا عن وجبة اليوم", "en": "ask us about today's meal" },
-          "prices": { "price": "3.75 JD" }
-        }
-      ]
-    },
-    {
-      "title": { "ar": "صناديق المشاركة", "en": "Sharing Boxes" },
-      "items": [
-        {
-          "name": { "ar": "بوكس اللمة", "en": "Lammeh Box" },
-          "description": { "ar": "ساندويتش زنجر حار\nساندويتش زنجر عادي\nساندويتش فاهيتا الدجاج\nساندويتش الدجاج بالكريما\nساندويتش ستيك اللحم البقري\nبطاطا مقلية وصوصات\n3 مشروب غازي", "en": "Spicy Zinger Sandwich\nRegular Zinger Sandwich\nChicken Fajita Sandwich\nChicken Cream Sandwich\nBeef Steak Sandwich\nFrench Fries & Sauces\n 3 Soft Drinks" },
-          "prices": { "price": "10 JD" }
-        },
-        {
-          "name": { "ar": "بوكس الفخامة", "en": "Fakhameh Box" },
-          "description": { "ar": "سموكي برغر لحم 150 جرام\nغراند برغر الدجاج باربكيو دجاج 137 جرام\nبرغر لحم كلاسيك جامبو 125 جرام\nسويس ماشروم برغر لحم 150 جرام\nجراند برغر الدجاج المقرمش 137 جرام\nبطاطا مقلية وصوصات\n3 مشروب غازي", "en": "Smokey Beef Burger 150 grams\nBarbeque Grand Crispy Chicken Burger 137 grams\nClassic Jumbo Beef Burger 125 grams\nSwiss Mushroom Beef Burger 150 grams\nGrand Crispy Chicken Burger 137 grams\nFrench Fries & Sauces\n3 Soft Drinks" },
-          "prices": { "price": "16 JD" }
-        },
-        {
-          "name": { "ar": "بوكس البركة", "en": "Barakeh Box" },
-          "description": { "ar": "3 برغر دجاج 75 جرام\n3 برغر لحم كلاسيك 80 جرام\nبطاطا مقلية وصوصات\n3 مشروب غازي", "en": "3 Classic Chicken Burger 75 grams\n 3 Classic Beef Burgers 80 grams\nFrench Fries & Sauces\n3 Soft Drinks" },
-          "prices": { "price": "11 JD" }
-        }
-      ]
-    },
-    {
-      "title": { "ar": "وجبات الأطفال", "en": "Kids Meals" },
-      "items": [
-        {
-          "name": { "ar": "وجبة الأبطال نجت الدجاج", "en": "Chicken Nuggets Champions Meal" },
-          "description": { "ar": "نجت الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken nuggets with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة الأبطال بوب كورن الدجاج", "en": "Chicken Popcorn Champions Meal" },
-          "description": { "ar": "بوشار الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken popcorn with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة الأبطال برغر اللحم", "en": "Beef Burger Champions Meal" },
-          "description": { "ar": "برغر اللحم مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "beef burger with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة الأبطال برغر الدجاج", "en": "Chicken Burger Champions Meal" },
-          "description": { "ar": "برغر الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken burger with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة الأبطال شاورما الدجاج", "en": "Chicken Shawerma Champions Meal" },
-          "description": { "ar": "شاورما الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken shawerma with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "2.5 JD" }
-        },
-        {
-          "name": { "ar": "وجبة الأبطال صدور الدجاج المشوي", "en": "Grilled Chicken Champions Meal" },
-          "description": { "ar": "قطع صدر الدجاج المشوي مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Grilled chicken breast pieces with fries, fresh juice, veggies- Gift included" },
-          "prices": { "price": "3 JD" }
-        }
-      ]
-    },
-    {
     "title": { "ar": "الإفطار", "en": "Breakfast" },
     "items": [
         {
@@ -407,6 +126,227 @@
       ]
     },
     {
+      "title": { "ar": "شاورما على الصاج", "en": "Shawerma" },
+      "items": [
+        {
+          "name": { "ar": "ساندويتش شاورما صاج دجاج صغير", "en": "Small Saj Chicken Shawerma Sandwich" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "0.9 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش شاورما صاج دجاج كبير", "en": "Big Saj Chicken Shawerma Sandwich" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "1.5 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما دجاج عادي", "en": "Saj Chicken Shawerma Regular Meal" },
+          "description": { "ar": "6 قطع، مخلل، بطاطا، كولسلو، مثومة", "en": "6pieces, pickles, fries, garlic sauce, coleslaw" },
+          "prices": { "price": "2.5 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما دجاج سوبر", "en": "Saj Chicken Shawerma Super Meal" },
+          "description": { "ar": "9 قطع، مخلل، بطاطا، كولسلو، مثومة", "en": "9pieces, pickles, fries, garlic sauce, coleslaw" },
+          "prices": { "price": "3.25 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما دجاج دبل", "en": "Saj Chicken Shawerma Double Meal" },
+          "description": { "ar": "12 قطعة، مخلل، بطاطا، كولسلو، مثومة، مشروب غازي", "en": "12pieces, pickles, fries, garlic sauce, coleslaw, soft drink" },
+          "prices": { "price": "3.75 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش شاورما صاج لحم صغير", "en": "Small Saj Meat Shawerma Sandwich" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "1.25 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش شاورما صاج لحم كبير", "en": "Big Saj Meat Shawerma Sandwich" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "2 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما لحم عادي", "en": "Saj Meat Shawerma Regular Meal" },
+          "description": { "ar": "6 قطع، مخلل، بطاطا، كولسلو، طحينية", "en": "6pieces, pickles, fries, tahini sauce, coleslaw" },
+          "prices": { "price": "3 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما لحم سوبر", "en": "Saj Meat Shawerma Super Meal" },
+          "description": { "ar": "9 قطع، مخلل، بطاطا، كولسلو، طحينية", "en": "9pieces, pickles, fries, tahini sauce, coleslaw" },
+          "prices": { "price": "3.75 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما لحم دبل", "en": "Saj Meat Shawerma Double Meal" },
+          "description": { "ar": "12 قطعة، مخلل، بطاطا، كولسلو، طحينية، مشروب غازي", "en": "12pieces, pickles, fries, tahini sauce, coleslaw, soft drink" },
+          "prices": { "price": "4.25 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما دبل مكس", "en": "Saj Shawerma Mix Double Meal" },
+          "description": { "ar": "12 قطعة مكس، مخلل، بطاطا، كولسلو، طحينية، مثومة، مشروب غازي", "en": "12mix pieces, pickles, fries, tahini sauce, garlic sauce, coleslaw, soft drink" },
+          "prices": { "price": "4 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما دجاج عائلية", "en": "Saj Shawerma Chicken Family Meal" },
+          "description": { "ar": "30 قطعة، مخلل، بطاطا، كولسلو، مثومة، 3 مشروبات غازية", "en": "30pieces, pickles, fries, garlic sauce, coleslaw, 3 soft drinks" },
+          "prices": { "price": "10 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما لحم عائلية", "en": "Saj Shawerma Meat Family Meal" },
+          "description": { "ar": "30 قطعة، مخلل، بطاطا، كولسلو، طحينية، 3 مشروبات غازية", "en": "30mix pieces, pickles, fries, tahini sauce, coleslaw, 3 soft drinks" },
+          "prices": { "price": "12 JD" }
+        },
+        {
+          "name": { "ar": "وجبة شاورما عائلية مكس", "en": "Saj Shawerma Mix Family Meal" },
+          "description": { "ar": "30 قطعة مكس، مخلل، بطاطا، كولسلو، طحينية، 3 مشروبات غازية", "en": "30mix pieces, pickles, fries, tahini sauce, coleslaw, 3 soft drinks" },
+          "prices": { "price": "11 JD" }
+        }
+      ]
+    },
+    {
+      "title": { "ar": "البرغر", "en": "Burgers" },
+      "items": [
+        {
+          "name": { "ar": "برغر لحم كلاسيك", "en": "Classic Beef Burger" },
+          "description": { "ar": "برغر اللحم البقري 80 غرام مع البندورة والخس والبصل والمخلل الحلو وجبن الشدر والصوص", "en": "80 grams beef burger, tomatoes, onions, lettuce, sweet piclesm chedder cheese, sauce" },
+          "prices": { "sandwich": "1.5 JD", "meal": "2.5 JD", "Wazen Meal": "3.75 JD" }
+        },
+        {
+          "name": { "ar": "برغر لحم كلاسيك جامبو", "en": "Classic Jumbo Beef Burger" },
+          "description": { "ar": "برغر اللحم البقري 125 غرام مع البندورة والخس والبصل والمخلل الحلو وجبن الشدر والصوص", "en": "125 grams beef burger, tomatoes, onions, lettuce, sweet piclesm chedder cheese, sauce" },
+          "prices": { "sandwich": "2.5 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
+        },
+        {
+          "name": { "ar": "سموكي برغر لحم", "en": "Smokey Beef Burger" },
+          "description": { "ar": "برغر اللحم البقري 150 غرام، بريسكت، لحم مقدد، بصل مكرمل، بندورة، خس، جبن تشيدرأبيض، صوص", "en": "150 grams beef burger, brisket, bacon, caramlised onions, tomato, lettuce, white chedder, sauce" },
+          "prices": { "sandwich": "3.75 JD", "meal": "4.75 JD", "Wazen Meal": "6 JD" }
+        },
+        {
+          "name": { "ar": "سويس ماشروم برغر لحم", "en": "Swiss Mushroom Beef Burger" },
+          "description": { "ar": "برغر اللحم البقري 150 غرام مع الخس والبندورة وصوص الفطر بالكريمة وجبن الموزرايلا", "en": "150 grams beef burger, lettuce, tomato, creamy mushroom sauce and mozzeralla" },
+          "prices": { "sandwich": "3.75 JD", "meal": "4.75 JD", "Wazen Meal": "6 JD" }
+        },
+        {
+          "name": { "ar": "برغر دجاج 75 غرام", "en": "Chicken Burger" },
+          "description": { "ar": "برغر الدجاج المقرمش 75 غرام مع الخس والبندورة وصوص الريليش والجبنة", "en": "75 grams crunchy chicken burger with lettuce, tomatos, relish sauce and cheese" },
+          "prices": { "sandwich": "1.5 JD", "meal": "2.5 JD", "Wazen Meal": "3.75 JD" }
+        },
+        {
+          "name": { "ar": "جراند برغر الدجاج المقرمش 137 غرام", "en": "Grand Crispy Chicken Burger" },
+          "description": { "ar": "جراند برغر الدجاج فائق القرمشة 137 غرام، خس، بندورة، كولسلو، صوص الريلش، جبنة", "en": "137 grams crispy chicken burger, coleslaw lettuce, tomato, relish sauce, cheese" },
+          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
+        },
+        {
+          "name": { "ar": "جراند برغر الدجاج حار نار", "en": "Spicy Grand Crispy Chicken Burger" },
+          "description": { "ar": "جراند برغر الدجاج فائق القرمشة 137 غرام، خس، بندورة، هالابينو، صوص الريلش، جبنة", "en": "137 grams crispy chicken burger, Jalapeño, lettuce, tomato, spicy sauce, cheese" },
+          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
+        },
+        {
+          "name": { "ar": "جراند برغر الدجاج باربكيو", "en": "Barbeque Grand Crispy Chicken Burger" },
+          "description": { "ar": "جراند برغر الدجاج فائق القرمشة 137 غرام، خس، بندورة، لحم مقدد، صوص الباربكيو، جبنة", "en": "137 grams crispy chicken burger, beef bacon, lettuce, tomato, barbeque sauce, cheese" },
+          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
+        },
+        {
+          "name": { "ar": "جراند برغر الدجاج انتعاش", "en": "Refresh Grand Crispy Chicken Burger" },
+          "description": { "ar": "جراند برغر الدجاج فائق القرمشة 137 غرام، جرجير، خس، بندورة، تيركي، صوص الرانش، جبنة", "en": "137 grams crispy chicken burger, turkey, lettuce, rocket, tomato, ranch sauce, cheese" },
+          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
+        },
+        {
+          "name": { "ar": "برغر الدجاج المشوي", "en": "Grilled Chicken Burger" },
+          "description": { "ar": "صدر الدجاج المشوي مع البندورة والخس والصوص بخبز البرغر", "en": "Grilled chicken breat with tomatoes and lettuce in burger bun" },
+          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
+        },
+        {
+          "name": { "ar": "برغر لايت", "en": "Light Burger" },
+          "description": { "ar": "برغر اللحم البقري بالخس بدل من الخبز", "en": "Beef burger wraped in lettuce" },
+          "prices": { "sandwich": "3 JD", "meal": "4 JD", "Wazen Meal": "5.25 JD" }
+        },
+        {
+          "name": { "ar": "برغر فلات", "en": "Flat Burger" },
+          "description": { "ar": "برغر اللحم البقري مع صوص الباربكيو", "en": "Beef Burger with Barbecue Sauce" },
+          "prices": { "sandwich": "1.75 JD", "meal": "-", "Wazen Meal": "-" }
+        },
+        {
+          "name": { "ar": "وجبة برغر فلات", "en": "Flat Burger Meal" },
+          "description": { "ar": "2 ساندويش فلات برغر، علبتين من الصوص، بطاطا ومشروب غازي", "en": "2flat burger sandwiches, 2 sauces, fries and drink" },
+          "prices": { "sandwich": "-", "meal": "4.5 JD", "Wazen Meal": "-" }
+        },
+        {
+          "name": { "ar": "بيغ واز", "en": "Big Waz" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "sandwich": "2.25 JD", "meal": "3 JD", "Wazen Meal": "-" }
+        },
+        {
+          "name": { "ar": "بيغ واز تشيكن", "en": "Big Waz Chicken" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "sandwich": "2.25 JD", "meal": "3 JD", "Wazen Meal": "-" }
+        }
+      ]
+    },
+    {
+      "title": { "ar": "الساندويتشات", "en": "Sandwiches" },
+      "note": {"ar": "اختيارك من الخبز الفرنسي، خبز التورتيلا، أو الخبز الأسمر", "en": "Your choice of French bread, tortilla, or whole wheat bread"},
+      "items": [
+        {
+          "name": { "ar": "ساندويتش زنجر", "en": "Zinger Sandwich" },
+          "description": { "ar": "ساندويش الدجاج المقرمش مع الخس والتيركي والجبنة والصوص", "en": "Fried chicken sandwich with lettuce, turkey, cheese and sauce" },
+          "prices": { "sandwich": "1.8 JD", "meal": "2.75 JD", "Wazen Meal": "4 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش فاهيتا الدجاج", "en": "Chicken Fajita Sandwich" },
+          "description": { "ar": "ساندويش الدجاج مع الفلفل الحلو والخس والجبنة والصوص", "en": "Chicken Pieces with bell pepper, lettuce, cheese and sauce" },
+          "prices": { "sandwich": "2 JD", "meal": "3 JD", "Wazen Meal": "4.25 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش الدجاج بالكريما", "en": "Chicken Cream Sandwich" },
+          "description": { "ar": "ساندويش الدجاج بالكريمة والبصل والفطر والخس والموزاريلا والصوص", "en": "Chicken with cream, onions, mushroom, lettuce, mozzarella and sauce" },
+          "prices": { "sandwich": "2 JD", "meal": "3 JD", "Wazen Meal": "4.25 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش ستيك اللحم البقري", "en": "Beef Steak Sandwich" },
+          "description": { "ar": "قطع ستيك اللحم مع البصل والفطر والفلفل الحلو والشيدر الأبيض والخس والبندورة والصوص", "en": "Meat Steak pieces with onions, mushroom, bell pepper, white chedder, lettuce, tomatos and sauce" },
+          "prices": { "sandwich": "2.5 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش صدر الدجاج المشوي", "en": "Grilled Chicken Sandwich" },
+          "description": { "ar": "قطع صدر الدجاج المشوي مع الخس والبندورة والفلفل الحلو والمخلل والصوص اللايت", "en": "Grilled Chicken Pieces with lettuce, tomatoes, bell pepper, pickles and light sauce" },
+          "prices": { "sandwich": "2.5 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
+        },
+        {
+          "name": { "ar": "زنجر بالكريما ساندويتش", "en": "Zinger Cream Sandwich" },
+          "description": { "ar": "قطع الدجاج المقلي مع الكريمة والفلفل الحلو والفطر والخس والموزاريلا والصوص", "en": "Friend Chicken pieces with cream, bell pepper, onion, mushroom, lettuce, mozzarella and sauce" },
+          "prices": { "sandwich": "2.25 JD", "meal": "3.5 JD", "Wazen Meal": "4.75 JD" }
+        },
+        {
+          "name": { "ar": "ساندويتش بطاطا", "en": "Potato Sandwich" },
+          "description": { "ar": "بطاطا مقلية مع الكاتشاب والمايونيز والخس", "en": "French Fries with lettuce, ketchup and mayo" },
+          "prices": { "sandwich": "1 JD", "meal": "-", "Wazen Meal": "-" }
+        },
+        {
+          "name": { "ar": "ساندويتش حلوم", "en": "Halloum Sandwich" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "sandwich": "1.5 JD", "meal": "-", "Wazen Meal": "-" }
+        }
+      ]
+    },
+    {
+      "title": { "ar": "صناديق المشاركة", "en": "Sharing Boxes" },
+      "items": [
+        {
+          "name": { "ar": "بوكس اللمة", "en": "Lammeh Box" },
+          "description": { "ar": "ساندويتش زنجر حار\nساندويتش زنجر عادي\nساندويتش فاهيتا الدجاج\nساندويتش الدجاج بالكريما\nساندويتش ستيك اللحم البقري\nبطاطا مقلية وصوصات\n3 مشروب غازي", "en": "Spicy Zinger Sandwich\nRegular Zinger Sandwich\nChicken Fajita Sandwich\nChicken Cream Sandwich\nBeef Steak Sandwich\nFrench Fries & Sauces\n 3 Soft Drinks" },
+          "prices": { "price": "10 JD" }
+        },
+        {
+          "name": { "ar": "بوكس الفخامة", "en": "Fakhameh Box" },
+          "description": { "ar": "سموكي برغر لحم 150 جرام\nغراند برغر الدجاج باربكيو دجاج 137 جرام\nبرغر لحم كلاسيك جامبو 125 جرام\nسويس ماشروم برغر لحم 150 جرام\nجراند برغر الدجاج المقرمش 137 جرام\nبطاطا مقلية وصوصات\n3 مشروب غازي", "en": "Smokey Beef Burger 150 grams\nBarbeque Grand Crispy Chicken Burger 137 grams\nClassic Jumbo Beef Burger 125 grams\nSwiss Mushroom Beef Burger 150 grams\nGrand Crispy Chicken Burger 137 grams\nFrench Fries & Sauces\n3 Soft Drinks" },
+          "prices": { "price": "16 JD" }
+        },
+        {
+          "name": { "ar": "بوكس البركة", "en": "Barakeh Box" },
+          "description": { "ar": "3 برغر دجاج 75 جرام\n3 برغر لحم كلاسيك 80 جرام\nبطاطا مقلية وصوصات\n3 مشروب غازي", "en": "3 Classic Chicken Burger 75 grams\n 3 Classic Beef Burgers 80 grams\nFrench Fries & Sauces\n3 Soft Drinks" },
+          "prices": { "price": "11 JD" }
+        }
+      ]
+    },
+    {
       "title": { "ar": "السلطات", "en": "Salads" },
       "items": [
         {
@@ -472,122 +412,62 @@
       ]
     },
     {
-      "title": { "ar": "الحلويات", "en": "Desserts" },
+      "title": { "ar": "الوجبات الصحية", "en": "Healthy Meals" },
       "items": [
         {
-          "name": { "ar": "كريب", "en": "Crepe" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "2.5 JD", "with Ice Cream": "-" }
+          "name": { "ar": "صدور الدجاج المشوية مع الخضار", "en": "Grilled Chicken Breast with Sauted Veggies" },
+          "description": { "ar": "صدر الدجاج المشوي مع الخضار السوتيه والبطاطا المهروسة (405 كالوري، 41 غرام بروتين، 15 غرام كاربوهيدرات)", "en": "Grilled chicken breast with sauteed veggies and mashed potatoes (405 calories, 41 grams protien, 15 grams carb)" },
+          "prices": { "price": "3.25 JD" }
         },
         {
-          "name": { "ar": "وافل", "en": "Waffle" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "2.5 JD", "with Ice Cream": "3.25 JD" }
+          "name": { "ar": "ستيك اللحم البقري مع الخضار", "en": "Grilled Meat Steak with Sauted Veggies" },
+          "description": { "ar": "فيلي ستيك مشوي مع خضار سوتيه وبطاطا مهروسة", "en": "Grilled meat steak with sauteed veggies and mashed potatoes" },
+          "prices": { "price": "4.25 JD" }
         },
         {
-          "name": { "ar": "وافل ستيك", "en": "Waffle Stick" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "1.25 JD", "with Ice Cream": "-" }
+          "name": { "ar": "وجبة الفاهيتا الصحية", "en": "Healthy Fajita Meal" },
+          "description": { "ar": "فاهيتا مع الخضار المشوية والرز الأبيض (460 كالوري، 36 غرام بروتين، 52 غرام كاربوهيدرات)", "en": "grilled fajita with plain rice" },
+          "prices": { "price": "3.5 JD" }
         },
         {
-          "name": { "ar": "كريم بروليه", "en": "Cremebrulee" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "1.5 JD", "with Ice Cream": "-" }
-        },
-        {
-          "name": { "ar": "بان كيك", "en": "Pancake" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "2.5 JD", "with Ice Cream": "-" }
-        },
-        {
-          "name": { "ar": "كوكيز بالفخارة", "en": "Cookie in Clay Pot" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "2.5 JD", "with Ice Cream": "3.25 JD" }
-        },
-        {
-          "name": { "ar": "كوكيز", "en": "Cookies" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "1 JD", "with Ice Cream": "-" }
-        },
-        {
-          "name": { "ar": "سكوب بوظة", "en": "Icecream Scoop" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "price": "1 JD", "with Ice Cream": "-" }
+          "name": { "ar": "الوجبة اليومية", "en": "Daily Meal" },
+          "description": { "ar": "اسألنا عن وجبة اليوم", "en": "ask us about today's meal" },
+          "prices": { "price": "3.75 JD" }
         }
       ]
     },
     {
-      "title": { "ar": "المشروبات الباردة", "en": "Cold Drinks" },
+      "title": { "ar": "وجبات الأطفال", "en": "Kids Meals" },
       "items": [
         {
-          "name": { "ar": "ليموناضة", "en": "Lemonade" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.3 JD", "large": "1.8 JD", "litre": "2.75 JD" }
+          "name": { "ar": "وجبة الأبطال نجت الدجاج", "en": "Chicken Nuggets Champions Meal" },
+          "description": { "ar": "نجت الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken nuggets with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "2.5 JD" }
         },
         {
-          "name": { "ar": "ليموناضة وازن", "en": "Wazen Lemonade" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3 JD" }
+          "name": { "ar": "وجبة الأبطال بوب كورن الدجاج", "en": "Chicken Popcorn Champions Meal" },
+          "description": { "ar": "بوشار الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken popcorn with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "2.5 JD" }
         },
         {
-          "name": { "ar": "ليموناضة بالنعناع", "en": "Limonade with Mint" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3 JD" }
+          "name": { "ar": "وجبة الأبطال برغر اللحم", "en": "Beef Burger Champions Meal" },
+          "description": { "ar": "برغر اللحم مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "beef burger with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "2.5 JD" }
         },
         {
-          "name": { "ar": "برتقال", "en": "Orange Juice" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3 JD" }
+          "name": { "ar": "وجبة الأبطال برغر الدجاج", "en": "Chicken Burger Champions Meal" },
+          "description": { "ar": "برغر الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken burger with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "2.5 JD" }
         },
         {
-          "name": { "ar": "رمان", "en": "Pomegrante Juice" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
+          "name": { "ar": "وجبة الأبطال شاورما الدجاج", "en": "Chicken Shawerma Champions Meal" },
+          "description": { "ar": "شاورما الدجاج مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Chicken shawerma with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "2.5 JD" }
         },
         {
-          "name": { "ar": "موز بالحليب", "en": "Banana with Milk" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3.5 JD" }
-        },
-        {
-          "name": { "ar": "موز بالفراولة والحليب", "en": "Banana and Strawberry with Milk" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3.5 JD" }
-        },
-        {
-          "name": { "ar": "كوكتيل", "en": "Cocktail" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3.5 JD" }
-        },
-        {
-          "name": { "ar": "منجا", "en": "Mango Juice" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3 JD" }
-        },
-        {
-          "name": { "ar": "فراولة", "en": "Strawberry Juice" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3 JD" }
-        },
-        {
-          "name": { "ar": "ملك شيك فراولة", "en": "Strawberry Milkshake" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
-        },
-        {
-          "name": { "ar": "ملك شيك شوكولاتة", "en": "Chocolate Milkshake" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
-        },
-        {
-          "name": { "ar": "ملك شيك فانيلا", "en": "Vanilla Milkshake" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
-        },
-        {
-          "name": { "ar": "بروتين شيك", "en": "Protien Shake" },
-          "description": { "ar": "", "en": "" },
-          "prices": { "large": "3 JD" }
+          "name": { "ar": "وجبة الأبطال صدور الدجاج المشوي", "en": "Grilled Chicken Champions Meal" },
+          "description": { "ar": "قطع صدر الدجاج المشوي مع البطاطا والعصير الطبيعي والخضار- هدية داخل الوجبة", "en": "Grilled chicken breast pieces with fries, fresh juice, veggies- Gift included" },
+          "prices": { "price": "3 JD" }
         }
       ]
     },
@@ -667,6 +547,81 @@
       ]
     },
     {
+      "title": { "ar": "المشروبات الباردة", "en": "Cold Drinks" },
+      "items": [
+        {
+          "name": { "ar": "ليموناضة", "en": "Lemonade" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.3 JD", "large": "1.8 JD", "litre": "2.75 JD" }
+        },
+        {
+          "name": { "ar": "ليموناضة وازن", "en": "Wazen Lemonade" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3 JD" }
+        },
+        {
+          "name": { "ar": "ليموناضة بالنعناع", "en": "Limonade with Mint" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3 JD" }
+        },
+        {
+          "name": { "ar": "برتقال", "en": "Orange Juice" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3 JD" }
+        },
+        {
+          "name": { "ar": "رمان", "en": "Pomegrante Juice" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
+        },
+        {
+          "name": { "ar": "موز بالحليب", "en": "Banana with Milk" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3.5 JD" }
+        },
+        {
+          "name": { "ar": "موز بالفراولة والحليب", "en": "Banana and Strawberry with Milk" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3.5 JD" }
+        },
+        {
+          "name": { "ar": "كوكتيل", "en": "Cocktail" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3.5 JD" }
+        },
+        {
+          "name": { "ar": "منجا", "en": "Mango Juice" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3 JD" }
+        },
+        {
+          "name": { "ar": "فراولة", "en": "Strawberry Juice" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "1.5 JD", "large": "2 JD", "litre": "3 JD" }
+        },
+        {
+          "name": { "ar": "ملك شيك فراولة", "en": "Strawberry Milkshake" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
+        },
+        {
+          "name": { "ar": "ملك شيك شوكولاتة", "en": "Chocolate Milkshake" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
+        },
+        {
+          "name": { "ar": "ملك شيك فانيلا", "en": "Vanilla Milkshake" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "medium": "2 JD", "large": "3 JD", "litre": "4 JD" }
+        },
+        {
+          "name": { "ar": "بروتين شيك", "en": "Protien Shake" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "large": "3 JD" }
+        }
+      ]
+    },
+    {
       "title": { "ar": "المشروبات الموسمية", "en": "Seasonal Drinks" },
       "items": [
         {
@@ -688,6 +643,51 @@
           "name": { "ar": "حليب بالزنجبيل", "en": "Ginger Milk" },
           "description": { "ar": "", "en": "" },
           "prices": { "medium": "1 JD", "large": "1.5 JD" }
+        }
+      ]
+    },
+    {
+      "title": { "ar": "الحلويات", "en": "Desserts" },
+      "items": [
+        {
+          "name": { "ar": "كريب", "en": "Crepe" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "2.5 JD", "with Ice Cream": "-" }
+        },
+        {
+          "name": { "ar": "وافل", "en": "Waffle" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "2.5 JD", "with Ice Cream": "3.25 JD" }
+        },
+        {
+          "name": { "ar": "وافل ستيك", "en": "Waffle Stick" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "1.25 JD", "with Ice Cream": "-" }
+        },
+        {
+          "name": { "ar": "كريم بروليه", "en": "Cremebrulee" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "1.5 JD", "with Ice Cream": "-" }
+        },
+        {
+          "name": { "ar": "بان كيك", "en": "Pancake" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "2.5 JD", "with Ice Cream": "-" }
+        },
+        {
+          "name": { "ar": "كوكيز بالفخارة", "en": "Cookie in Clay Pot" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "2.5 JD", "with Ice Cream": "3.25 JD" }
+        },
+        {
+          "name": { "ar": "كوكيز", "en": "Cookies" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "1 JD", "with Ice Cream": "-" }
+        },
+        {
+          "name": { "ar": "سكوب بوظة", "en": "Icecream Scoop" },
+          "description": { "ar": "", "en": "" },
+          "prices": { "price": "1 JD", "with Ice Cream": "-" }
         }
       ]
     },
